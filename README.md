@@ -1,1 +1,2 @@
-Team Star Death offical repository
+# star-death
+Team Star Death's offical repository!
