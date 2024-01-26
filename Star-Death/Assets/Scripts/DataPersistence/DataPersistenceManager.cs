@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /* Instructions for use:
 
@@ -9,6 +10,8 @@ All classes with data that needs to be saved must implement the IDataPersistence
 All data that needs to be saved must have a corresponding field in the GameData class.
 
 */
+
+// Need to separate updating the GameData state and writing to disk
 
 public class DataPersistenceManager : MonoBehaviour
 {
@@ -20,11 +23,15 @@ public class DataPersistenceManager : MonoBehaviour
 
     public static DataPersistenceManager instance {get; private set;}
 
-    private void Start()
+    public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        this.dataHandler = new FileDataHandler(Application.persistentDataPath, fileName);
         this.dataPersistenceObjects = FindAllDataPersistenceObjects();
         LoadGame();
+    }
+
+    public void OnSceneUnloaded(Scene scene)
+    {
+        SaveGame();
     }
 
     private void Awake()
@@ -37,6 +44,20 @@ public class DataPersistenceManager : MonoBehaviour
         {
             Destroy(this);
         }
+
+        this.dataHandler = new FileDataHandler(Application.persistentDataPath, fileName);
+    }
+
+    private void OnEnable()
+    {
+        SceneManagement.sceneLoaded += OnSceneLoaded;
+        SceneManagement.sceneUnloaded += OnSceneUnloaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManagement.sceneLoaded -= OnSceneLoaded;
+        SceneManagement.sceneUnloaded -= OnSceneUnloaded;
     }
     
     public void NewGame()
