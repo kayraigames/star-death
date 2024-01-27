@@ -206,7 +206,7 @@ PrefabInstance:
     - target: {fileID: 3579681405068720530, guid: bd3f6aafe470c9c468bab85d9f32320b, type: 3}
       propertyPath: yarnProject
       value: 
-      objectReference: {fileID: 7545569452688597077, guid: d3dfc8f759d0c6946a54b377d345fbd5, type: 3}
+      objectReference: {fileID: 7545569452688597077, guid: ce4788085980b3f4bbe9a2f7cc92bb7a, type: 3}
     - target: {fileID: 7778558434935992803, guid: bd3f6aafe470c9c468bab85d9f32320b, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
