@@ -9,6 +9,8 @@ using UnityEngine.SceneManagement;
 All classes with data that needs to be saved must implement the IDataPersistence interface.
 All data that needs to be saved must have a corresponding field in the GameData class.
 
+Call Savegame before you transition scenes.
+
 */
 
 // Need to separate updating the GameData state and writing to disk
@@ -25,7 +27,8 @@ public class DataPersistenceManager : MonoBehaviour
 
     public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        this.dataPersistenceObjects = FindAllDataPersistenceObjects();
+        Debug.Log("Scene loaded.\n");
+        dataPersistenceObjects = FindAllDataPersistenceObjects();
         LoadGame();
     }
 
@@ -43,34 +46,38 @@ public class DataPersistenceManager : MonoBehaviour
         else
         {
             Destroy(this);
+            return;
         }
 
-        this.dataHandler = new FileDataHandler(Application.persistentDataPath, fileName);
+        DontDestroyOnLoad(gameObject);
+
+        dataHandler = new FileDataHandler(Application.persistentDataPath, fileName);
     }
 
     private void OnEnable()
     {
-        SceneManagement.sceneLoaded += OnSceneLoaded;
-        SceneManagement.sceneUnloaded += OnSceneUnloaded;
+        SceneManager.sceneLoaded += OnSceneLoaded;
+        SceneManager.sceneUnloaded += OnSceneUnloaded;
     }
 
     private void OnDisable()
     {
-        SceneManagement.sceneLoaded -= OnSceneLoaded;
-        SceneManagement.sceneUnloaded -= OnSceneUnloaded;
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+        SceneManager.sceneUnloaded -= OnSceneUnloaded;
     }
     
     public void NewGame()
     {
-        this.gameData = new GameData();
+        gameData = new GameData();
     }
 
     public void LoadGame()
     {
-        this.gameData = dataHandler.Load();
+        gameData = dataHandler.Load();
 
-        if (this.gameData == null)
+        if (gameData == null)
         {
+            Debug.Log("Did not find save.\n");
             NewGame();
         }
 
