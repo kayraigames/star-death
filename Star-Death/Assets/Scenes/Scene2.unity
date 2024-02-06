@@ -181,12 +181,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9121a29a3fa994f4e819bf09b6da368a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c75ded30c6837634f88b6daefde689b8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 16.28, y: 10.8}
+  m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -201,8 +201,8 @@ Transform:
   m_GameObject: {fileID: 465030633}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.51, y: 1.1102941, z: 1.1102941}
+  m_LocalPosition: {x: 0.0032, y: 0.0003, z: 0}
+  m_LocalScale: {x: 9.155836, y: 3.0658324, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -218,6 +218,10 @@ PrefabInstance:
     - target: {fileID: 2753718018764665327, guid: bd3f6aafe470c9c468bab85d9f32320b, type: 3}
       propertyPath: m_Name
       value: Dialogue System
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183266951831634833, guid: bd3f6aafe470c9c468bab85d9f32320b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3183266951831634833, guid: bd3f6aafe470c9c468bab85d9f32320b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -290,7 +294,7 @@ PrefabInstance:
     - target: {fileID: 3579681405068720530, guid: bd3f6aafe470c9c468bab85d9f32320b, type: 3}
       propertyPath: yarnProject
       value: 
-      objectReference: {fileID: 7545569452688597077, guid: e9debc25f53e02143bdd0abad6e6355d, type: 3}
+      objectReference: {fileID: 7545569452688597077, guid: 3aa7365a8b7ecf745b3fb125e8ebc136, type: 3}
     - target: {fileID: 7778558434935992803, guid: bd3f6aafe470c9c468bab85d9f32320b, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0

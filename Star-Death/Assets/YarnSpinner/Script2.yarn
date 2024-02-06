@@ -1,8 +1,14 @@
-﻿title: Scene_2
+title: Scene_2
 tags:
 ---
-Unknown: A body appears and floats alongside you.
-Unknown: Her crown is silver, and it shines brightly in the endless night. But unlike you, she slowly becomes encased in ice, covered in millions of twinkling, shining crystals. You don’t feel the cold yet. But suddenly, there is a lack of warmth.
-Unknown: You wake.
-Unknown: …
+A body appears and floats alongside you.
+Her crown is silver, and it shines brightly in the endless night. But unlike you, she slowly becomes encased in ice, covered in millions of twinkling, shining crystals. You don’t feel the cold yet. But suddenly, there is a lack of warmth.
+You wake.
+<<wait 2>>
+???: …Hey! Hey, wake up! Adra, come!
+ADRA: Hrghh—I’m up! I am awake.
+ADRA: Lady Hylla!
+HYLLA: Nevermind the formalities. 
+ADRA: 
+HYLLA: The crown princess Vivian—she’s died! 
 ===
