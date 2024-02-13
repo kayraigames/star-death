@@ -1,11 +1,11 @@
 title: Scene_2
 tags:
 ---
+<<jump part_2>>
 A body appears and floats alongside you.
 Her crown is silver, and it shines brightly in the endless night. But unlike you, she slowly becomes encased in ice, covered in millions of twinkling, shining crystals. You don’t feel the cold yet. But suddenly, there is a lack of warmth.
 You wake.
 <<wait 2>>
-<<jump part_2>>
 ???: …Hey! Hey, wake up! Adra, come!
 ADRA: Hrghh—I’m up! I am awake.
 ADRA: Lady Hylla!
