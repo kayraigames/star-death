@@ -32,6 +32,7 @@ public class SaveSlotsMenu : MonoBehaviour
             DataPersistenceManager.instance.NewGame();
         }
 
+        DataPersistenceManager.instance.SaveGame();
         SceneManager.LoadSceneAsync("DataPersistenceTest");
     }
 
@@ -51,7 +52,7 @@ public class SaveSlotsMenu : MonoBehaviour
 
         foreach(SaveSlot saveSlot in saveSlots)
         {
-            GameData profileData = null;
+            GameData profileData;
             profilesGameData.TryGetValue(saveSlot.GetProfileID(), out profileData);
             saveSlot.SetData(profileData);
 

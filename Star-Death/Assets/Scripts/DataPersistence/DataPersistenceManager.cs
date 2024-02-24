@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 All classes with data that needs to be saved must implement the IDataPersistence interface.
 All data that needs to be saved must have a corresponding field in the GameData class.
 
-Call Savegame before you transition scenes.
+MUST call SaveGame before you transition scenes.
 
 */
 
@@ -32,12 +32,6 @@ public class DataPersistenceManager : MonoBehaviour
         dataPersistenceObjects = FindAllDataPersistenceObjects();
         LoadGame();
     }
-
-    public void OnSceneUnloaded(Scene scene)
-    {
-        SaveGame();
-    }
-
     public void ChangeSelectedProfileID(string newProfileID)
     {
         selectedProfileID = newProfileID;
@@ -66,13 +60,11 @@ public class DataPersistenceManager : MonoBehaviour
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
-        SceneManager.sceneUnloaded += OnSceneUnloaded;
     }
 
     private void OnDisable()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
-        SceneManager.sceneUnloaded -= OnSceneUnloaded;
     }
     
     public void NewGame()
@@ -118,7 +110,7 @@ public class DataPersistenceManager : MonoBehaviour
 
     public List<IDataPersistence> FindAllDataPersistenceObjects()
     {
-        IEnumerable<IDataPersistence> dataPersistenceObjects = FindObjectsOfType<MonoBehaviour>()
+        IEnumerable<IDataPersistence> dataPersistenceObjects = FindObjectsOfType<MonoBehaviour>(true)
             .OfType<IDataPersistence>();
 
         return new List<IDataPersistence>(dataPersistenceObjects);
