@@ -22,6 +22,7 @@ public class DataPersistenceManager : MonoBehaviour
     private GameData gameData;
     private FileDataHandler dataHandler;
     private List<IDataPersistence> dataPersistenceObjects;
+    private string selectedProfileID = "";
 
     public static DataPersistenceManager instance {get; private set;}
 
@@ -35,6 +36,13 @@ public class DataPersistenceManager : MonoBehaviour
     public void OnSceneUnloaded(Scene scene)
     {
         SaveGame();
+    }
+
+    public void ChangeSelectedProfileID(string newProfileID)
+    {
+        selectedProfileID = newProfileID;
+
+        LoadGame();
     }
 
     private void Awake()
@@ -52,6 +60,7 @@ public class DataPersistenceManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         dataHandler = new FileDataHandler(Application.persistentDataPath, fileName);
+        selectedProfileID = dataHandler.GetMostRecentlyUpdatedProfileID();
     }
 
     private void OnEnable()
@@ -68,17 +77,16 @@ public class DataPersistenceManager : MonoBehaviour
     
     public void NewGame()
     {
-        gameData = new GameData();
+        gameData = new GameData(fileName);
     }
 
     public void LoadGame()
     {
-        gameData = dataHandler.Load();
+        gameData = dataHandler.Load(selectedProfileID);
 
         if (gameData == null)
         {
             Debug.Log("Did not find save.\n");
-            NewGame();
         }
 
         foreach (IDataPersistence dataPersistenceObj in dataPersistenceObjects)
@@ -94,7 +102,14 @@ public class DataPersistenceManager : MonoBehaviour
             dataPersistenceObj.SaveData(gameData);
         }
 
-        dataHandler.Save(gameData);
+        if (gameData == null)
+        {
+            return;
+        }
+
+        gameData.lastUpdated = System.DateTime.Now.ToBinary();
+
+        dataHandler.Save(gameData, selectedProfileID);
     }
 
     private void OnApplicationQuit() {
@@ -107,5 +122,19 @@ public class DataPersistenceManager : MonoBehaviour
             .OfType<IDataPersistence>();
 
         return new List<IDataPersistence>(dataPersistenceObjects);
+    }
+
+    public bool HasGameData()
+    {
+        if (gameData == null)
+        {
+            Debug.Log("No game found.\n");
+        }
+        return gameData != null;
+    }
+
+    public Dictionary<string, GameData> GetAllProfilesGameData()
+    {
+        return dataHandler.LoadAllProfiles();
     }
 }
