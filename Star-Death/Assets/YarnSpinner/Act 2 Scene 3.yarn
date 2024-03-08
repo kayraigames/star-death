@@ -1,0 +1,179 @@
+﻿title: Act_2_Scene_3
+tags:
+---
+
+// Location: Nuon's Headquarters
+
+ADRA: Hi, Nuon, how’re you doing? No…
+
+ADRA: Hello, Nuon, I know it’s been hard… Nope.
+
+ADRA: Hi, it’s Adra, can we talk? Hmm…
+
+ADRA: Hey, Nuon, we have some things to discuss. No, definitely not. Ugh…
+
+* You stop muttering to yourself, frustrated. You don’t know what to expect from Nuon. You don’t know how you should talk to him after… all this.
+
+* What should you say to him? Should you comfort him? Get straight to business? After all, his future—your future—hinges on his cooperation and rationale. But knowing Nuon…
+
+* You think you might understand how he’s feeling—you might understand it all too well—but you also know that everyone responds to grief differently. And you and Nuon are not the same.
+
+* You catch a waft of something sharp in the air—metallic—and your nose crinkles. It’s the same scent that you woke up to this morning.
+
+* A purple wisp—a shadow—flits across the hallway out of the corner of your eye. It’s eerily familiar.
+
+ADRA: Amara…?
+
+* You turn your head to follow it, but it’s gone as quickly as it came. The metallic scent lingers in the air.
+
+* Shaking your head, you find you’ve arrived in front of Nuon’s door. Turning to face it, you take a deep breath to steady yourself—the metallic scent is gone, thankfully—and you knock lightly on the door.
+
+ADRA: It’s Adra. Adil said—
+
+NUON: Come in.
+
+* He definitely sounds angrier than you did back then, but that’s to be expected from Nuon. You shyly open the door.
+
+-> How are you doing? //option 1
+    ADRA: Hey, Nuon, how are—
+-> We have somethings to discuss //option 2
+    ADRA: Hey, Nuon, we have some things to—
+-> Say nothing //option 3
+    ADRA: …
+
+NUON: Adil told me about the trial. And how you’re the one defending me. You know I didn’t do it. You saw me on the day.
+
+NUON: We talked, but I… I left her alive. You heard her.
+
+ADRA: I—
+
+NUON: You’re my witness, you have to tell them that you were with me when it happened. That I didn’t even have the opportunity to… to…
+
+* Nuon is pacing around the room in random patterns. He’s not looking at you—it’s almost as if he’s not even talking to you, just repeating things that he’s been using to comfort himself over the past few days.
+
+ADRA: Nuon…
+
+NUON: I didn’t kill her, Adra! Vivian— I didn’t…! I didn’t! And now what do I do? She’s gone and I’m the next in line for the throne, but I won’t be if they decide that I killed my own sister!
+
+NUON: But maybe that’s better, because I can’t be— you heard her, I’m not ready for this. I’m not fit for this. I can’t lead!
+
+ADRA: Nuon, what’re you talking about?
+
+NUON: Why me and not one of the dozens of other jealous people who were at the party? Vivian isn’t perfect, you know? She isn’t perfect.
+
+NUON: She’s fucked up before. She’s probably fucked up all of those people’s lives too, and they just couldn’t say it, so they killed her instead!
+
+NUON: Or Hylla! Vivian’s always loved the attention, and maybe Hylla just isn’t giving her enough!
+
+NUON: Or Adil! He’s had to trail after her for years, tending to her every need! He probably hates Vivian—hated Vivian… hates Vivian…
+
+ADRA: Nuon…
+
+NUON: Or Gray! Everyone knows they’re in love with—
+
+ADRA: Nuon! Prince!
+
+* He finally stops pacing and turns to look at you. You finally see the dark circles that contrast with his pale face. He hasn’t slept since her death, has he? Not really, anyway. He hasn’t been allowed outside either.
+
+* You get it. You feel like you didn’t sleep a wink for weeks after Amara… And yet you can still remember the nightmares—you still feel them in your stomach. You wonder if it’s the same for Nuon.
+
+* But you don’t have time to pity him or worry about him right now. You have a job to do. And if Nuon loses, so do you.
+
+ADRA: I don’t think you did it. But it’s not me you have to convince. So work with me here. Please.
+
+ADRA: Can you walk me through what happened on the day?
+
+NUON: …
+
+ADRA: We both need this. So can we please just approach it rationally? I’ll gather evidence. I’ll defend you.
+
+NUON: …
+
+ADRA: We’ll find your sister’s real killer and bring them to justice.
+
+NUON: …
+
+ADRA: Nuon…
+
+NUON: Hylla and I met the morning of Vivian’s birthday gala. We didn’t want to cause a scene, so I asked if we could put on a show… act like everything’s normal between us…
+
+NUON: But she hates me. For no reason! I don’t even want this arranged marriage! I didn’t know what an arranged marriage was when Mother and Father forced me into it ten years ago! I don’t even care about her and Vivian’s affair! But—
+
+ADRA: Nuon. Back to the point.
+
+NUON: That was part of the point. She didn’t want to pretend to not hate me for one day. But eventually she decided it was tolerable. For Vivian’s sake.
+
+NUON: After that, I was just around with all the nobles. Exchanging pleasantries, as I’m supposed to. Then Vivian called me to her chambers to discuss… something.
+
+* You remember how that “discussion” ended: Nuon storming out and Princess Vivian uncharacteristically yelling after him. You wait for him to explain the argument.
+
+NUON: Then you came to find me and—
+
+ADRA: Wait. What did Princess Vivian want to talk to you about?
+
+NUON: It doesn’t matter.
+
+-> Push the question by appealing to emotions //option 1
+    ADRA: It seemed like it mattered to you. Enough for both you and Princess Vivian to yell and fight about it. Are you sure you don’t want to—
+-> Push the question by appealing to logic //option 2
+    ADRA: I’d say it most definitely does. What if someone overheard your fight? That could be a motive, and if I don’t know what you were fighting about, I can’t defend you.
+-> Just let it go //option 3
+    ADRA: Alright. We don’t have to talk about your fight.
+
+NUON: It wasn’t a fight! Vivian was just being… Vivian. And it’s not important. The important part is that I left her alive.
+
+ADRA: Even though you did then, you could’ve gone back after and—
+
+NUON: What? Killed her? I thought you said you didn’t think I did it!
+
+ADRA: That’s not—
+
+NUON: Just say you were with me the whole time!
+
+ADRA: I can’t do that!
+
+* You can’t risk yourself—your family—by lying in court.
+
+ADRA: It’s too obvious. Besides, I was seen in the ballroom.
+
+ADRA: Look, if you don’t want to talk about it, then fine. But it weakens the defense.
+
+NUON: … It wasn’t important.
+
+* Stars, Nuon… how stubborn can you be?
+
+ADRA: Fine. So, after that?
+
+NUON: I was just preparing for the dance with Hylla. You know that.
+
+* No you don’t.
+
+ADRA: And then you went straight to the ballroom for the dance?
+
+NUON: Yes.
+
+ADRA: Okay.
+
+* You wait for him to say anything else. But nothing. You’re starting to get very annoyed with Nuon.
+
+* Does he not understand the gravity of the situation? Could he at least try to be helpful?
+
+* But the other part of you reminds yourself how hard it is to lose an older sibling and suddenly be swept up into a new life with new expectations.
+
+* You sigh.
+
+ADRA: Alright. I’m going to ask around for other people’s accounts and try to figure out what happened that day. I’ll keep you updated.
+
+ADRA: May I go now?
+
+* Nuon waves his hand to dismiss you before going back to pacing, but before you can open the door to leave…
+
+NUON: Wait. Talk to Hylla. She… knew Vivian better than I did. At least… at the end.
+
+* You nod before quickly slipping through the door, closing it gently behind you.
+
+* After exiting, you lean against the door and let out a sigh. This is going to be annoying.
+
+* You obtained NUON’S ACCOUNT.
+
+===
