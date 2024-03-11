@@ -6,55 +6,52 @@ tags:
 
 //[LOCATION: UNKNOWN]
 
-* …
+…
 
-* The stars are bright in your dream. You hover in ceaseless existence, ever-wondering if there is an end to this all.
+The stars are bright in your dream. You hover in ceaseless existence, ever-wondering if there is an end to this all.
 
-* You’re floating in open space, where there’s no sound, no smell, no taste, and only a coldonly cold, cold feeling.
+You’re floating in open space, where there’s no sound, no smell, no taste, and only a cold, cold feeling.
 
-* Who are you? What are you?
+Who are you? What are you?
 
-* ….
+….
 
-* …. // check if this is needed 
+….
 
 ???: Adra.
 
-* The voice speaking to you echoes in your mind like the phantom caress of a hand. A metallic, blood-like scent floods your senses.
+The voice speaking to you echoes in your mind like the phantom caress of a hand. A metallic, blood-like scent floods your senses.
 
-* A face with a vague two-thirds likeness to your own appears in front of you. It’s like looking into a distorted mirror. The glint of a silver chain around her neck gives you a hint—your sister.
+A face with a vague likeness to your own appears in front of you. It’s like looking into a distorted mirror.
 
-AMARA: Adra.
+The glint of a silver chain around her neck gives you a hint.
 
-ADRA: Amara…? What are you doing here?
+???: Adra.
 
-* The silhouette of your sister shifts suddenly. Her body becomes wrapped in layers upon layers of white cloth—funeral wear…
+ADRA: …? What are you doing here?
 
-* for the deceased.
+The silhouette shifts suddenly. Her body becomes wrapped in layers upon layers of white cloth—funeral wear…
 
-* You remember. Your elder sister Amara had been killed in an accident years ago.
+for the deceased.
 
-* Memories of the funeral procession flash before you. Your mother’s pale, haunted face. Your siblings’ large, tearful eyes.
+…
 
-* Your sister’s ejection, mirroring your father’s a decade prior—the only difference being that the clothes you wore were a little bit less worn, a little bit newer and flashier than when your father passed.
+You remember a death that occurred years ago.
+<<declare $death_year_ago = 1>>
 
-* Amara’s work had raised your family’s status by quite a fair amount. 
+Memories of the funeral procession flash before you. Your mother’s pale, haunted face. Your siblings’ large, tearful eyes.
 
-* You wonder if your father and her were happy now that they were reunited as stars. She had missed him dearly. You both do. Did.
+An ejection that mirrored your father’s a decade prior—the only difference between them was that the clothes you wore were a little bit less worn and a little bit newer than when your father passed.
 
-* The wisp of your consciousness still floats in space, amongst the stars, while you stare at the memory of your body gazing out at Amara’s funeral procession. Her white cloth stands out against the black expanse. You hope that you stay long enough to see her become the star.
+The wisp of your consciousness still floats in space, amongst the stars, while you stare at the memory of your body gazing out at the funeral procession. White cloth stands out against the black expanse. You hope that you stay long enough to see her become the star.
 
-* Time moves eerily and in a way that you can’t process. You follow the body. You think you move far from the ship, but when you look back, a wall of metal still stares back at you.
+Time moves eerily and in a way that you can’t process. You follow the body. You think you move far from the ship, but when you look back, a wall of metal still stares back at you.
 
-* When you turn to Amara’s body, she’s gone.
-
-ADRA: Amara?
-
-ADRA: Father?
+When you turn to the body, it’s gone.
 
 ADRA: Hello…?
 
-* A new body appears and floats alongside you.
+A new body appears and floats alongside you.
 
 Her crown is silver, and it shines brightly in the endless night. But unlike you, she slowly and steadily becomes encased in ice, covered in millions of twinkling, shining crystals. You don’t feel the cold yet. But suddenly, there is a lack of warmth.
 
@@ -64,4 +61,5 @@ Vivian’s eyes are wide, wide open.
 
 You wake.
 
+<<jump Act_2_Scene_2>>
 ===

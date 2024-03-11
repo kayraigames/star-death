@@ -1,75 +1,80 @@
 ﻿title: Act_2_Scene_2
 tags:
 ---
-
+<<wait 2>>
 // Adra wakes up to that same overwhelming metallic scent (dark magic) and recognizes it as the same scent of Amara’s ghost that she used to smell when Amara died. In the dark, she thinks she sees Vivian (i.e. Vivian’s ghost) hovering above her. The lights flick on and Adra screams before Adil enters, looking very tired. He apologizes for scaring Adra and tells her that she should stop sleeping as Nuon was calling for her. As she gets ready, he offers her some genuine but awkward sympathy, but leaves hastily before she can respond. Adra notices that he left a cup of hot tea on her table.
 
 // When Adra wakes, she mutters Amara’s name, recognizing the scent of her sister’s ghost as the scent of Vivian’s ghost.
 
 // [ADRA’S BEDROOM]
 
-*It is dark.
+It is dark.
+<<declare $light = false>>
 
-*You feel a layer of soft material over your body. Where are you?
+You feel a layer of soft material over your body. Where are you?
 
-*The same pungent, metallic scent fills your nose, so overwhelmingly strong that it makes your head start to pound. 
+The same pungent, metallic scent fills your nose, so overwhelmingly strong that it makes your head start to pound. 
 
-*It smells… familiar. Sharp. 
+It smells… familiar. Sharp. 
 
 ADRA: Amara…?
 
-*But that can’t be.
+But that can’t be.
 
-*Something forms in the darkness. It’s like mist or smoke, hovering gently above you. The top of its shape seems to flow, like a person’s hair. A vague face emerges. Its eyes open.
+Something forms in the darkness. It’s like mist or smoke, hovering gently above you. The top of its shape seems to flow, like a person’s hair. A vague face emerges. Its eyes open.
 
-*The face moves closer, but you can’t move a muscle. Your chest almost hurts with how hard you struggle to breathe, like a heavy weight has settled on your lungs. The face looks like…
+The face moves closer, but you can’t move a muscle. Your chest almost hurts with how hard you struggle to breathe, like a heavy weight has settled on your lungs. The face looks like…
 
 ADRA: Princess…?
 
-*It raises its long, skeletal fingers. Princess Vivian stares blankly into your eyes as she reaches for your face and—
+It raises its long, skeletal fingers. Princess Vivian stares blankly into your eyes as she reaches for your face and—
 
 ADRA: NO!
 
-*The lights flicker on and suddenly the room is flooded with golden light, revealing Adil standing cautiously in the doorway. 
+The lights flicker on and suddenly the room is flooded with golden light, revealing Adil standing cautiously in the doorway. 
+<<set $light = true>>
 
-*He looks at you worriedly. You can see dark circles under his eyes. Without their Princess to tend to, they’ve been trying to keep themselves busy in any way they could. 
+He looks at you worriedly. You can see dark circles under his eyes. Without their Princess to tend to, they’ve been trying to keep themselves busy in any way they could. 
 
 ADIL: Adrasteia, I sincerely apologize. I didn’t mean to scare you. I knocked, but there wasn’t an answer.
 
-*You sit up, trying to flatten stray bits of hair and untangle yourself from the blanket.
+You sit up, trying to flatten stray bits of hair and untangle yourself from the blanket.
 
 ADIL: Are you okay?
 -> I just had a bad dream //option 1
     ADIL: Yes, most of us have not been able to sleep recently.
 -> I saw the Princess //option 2
-    *His eyes widen.
+    His eyes widen.
     ADIL: Are you sure? Did she say anything? What did she— 
     ADIL: Sorry, perhaps it was a bad dream…
 -> It was nothing //option 3
-    *He raises an eyebrow, but doesn’t pursue the matter any further.
+    He raises an eyebrow, but doesn’t pursue the matter any further.
 
-*Adil looks down. The distress and sorrow shows itself in their fatigued posture and expression. His voice is quieter than usual.
+Adil looks down. The distress and sorrow shows itself in their fatigued posture and expression. His voice is quieter than usual.
 
 ADIL: You should get ready. The Prince has been calling for you.
 
 ADRA: Yes. Yes, of course.
 
-*As you get out of bed, Adil turns to leave, but lingers in the doorway.
+As you get out of bed, Adil turns to leave, but lingers in the doorway.
 
-*He pauses, then turns back toward you.
+He pauses, then turns back toward you.
 
 ADIL: I… hope you are managing okay, Adrasteia. If you require anything at all, you can… always let me know.
 
-*He pauses again.
+He pauses again.
 
 ADIL: Yes, that’s—that’s all I wanted to say. 
 
-*Before you can respond, he sets something down and hastily leaves the room, closing the door behind him.
+Before you can respond, he sets something down and hastily leaves the room, closing the door behind him.
+<<set $door_open = false>>
 
-*You can’t help but smile a little. Adil has always been so formal that you were unsure they could be anything else. Yet here he was, trying to uplift in the darkest of times.
+You can’t help but smile a little. Adil has always been so formal that you were unsure they could be anything else. Yet here he was, trying to uplift in the darkest of times.
 
-*After you get dressed and tidy your appearance, you turn to leave. But by the door you spot something that had not been there before. 
+After you get dressed and tidy your appearance, you turn to leave. But by the door you spot something that had not been there before. 
 
-*Adil had left a teacup, filled to the brim with steam still rising, spreading a wonderfully fresh fragrance into the air.
+Adil had left a teacup, filled to the brim with steam still rising, spreading a wonderfully fresh fragrance into the air.
 
+<<wait 2>>
+<<jump Act_2_Scene_3>>
 ===

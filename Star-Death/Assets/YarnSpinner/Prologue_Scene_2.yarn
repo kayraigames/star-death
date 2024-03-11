@@ -1,21 +1,4 @@
-title: Scene_2
-tags:
----
-<<jump part_2>>
-A body appears and floats alongside you.
-Her crown is silver, and it shines brightly in the endless night. But unlike you, she slowly becomes encased in ice, covered in millions of twinkling, shining crystals. You don’t feel the cold yet. But suddenly, there is a lack of warmth.
-You wake.
-<<wait 2>>
-???: …Hey! Hey, wake up! Adra, come!
-ADRA: Hrghh—I’m up! I am awake.
-ADRA: Lady Hylla!
-HYLLA: Nevermind the formalities. 
-ADRA: 
-HYLLA: The crown princess Vivian—she’s died! 
-===
-
-
-title: part_2
+title: Prologue_Scene_2
 ---
 <<declare $door_open = false>>
 EMPRESS: Adra?
@@ -34,9 +17,9 @@ EMPRESS: I will cut to the chase. Currently, Crown Prince Nuon, the man to whom 
 
 EMPRESS: And the end of the heir means the end for all who depend on our royal family. 
 
-*For all who depend on them…
+For all who depend on them…
 
-*The end…
+The end…
 
 EMPRESS: For now, the current situation suggests the Prince committed this heinous act as a way to ascend the throne, as horrific and unfathomable as that may be.
 
@@ -44,13 +27,13 @@ EMPRESS: I realize Princess Vivian’s death alone is already a heavy burden, bu
 
 EMPRESS: Keep in mind this does not clear you of suspicion. It just so happens you are accounted for throughout most, if not all, of the instances surrounding the lady’s death.
 
-*Nuon… you couldn’t have.
+Nuon… you couldn’t have.
 
-*Your sister…?
+Your sister…?
 
 ADRA: I understand.
 
-*Surely, Nuon, you can’t have.
+Surely, Nuon, you can’t have.
 
 EMPRESS: I’m glad. I wholly entrust to you this task, given your familiarity with the family and the Prince in particular. Investigate as much as you can, and uncover the truth of what transpired on this/my ship.
 
@@ -58,4 +41,5 @@ EMPRESS: Remember, five days.
 <<declare $day = 5>>
 
 EMPRESS: If there are no further questions, you are dismissed.
+<<jump Act1>>
 === 
