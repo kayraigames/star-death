@@ -1,0 +1,8 @@
+﻿title: Act2
+tags:
+---
+<<wait 3>>
+ACT 2
+<<wait 3>>
+<<jump Act_2_Scene_1>>
+===

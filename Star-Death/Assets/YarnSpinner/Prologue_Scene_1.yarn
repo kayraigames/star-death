@@ -3,12 +3,18 @@ tags:
 ---
 <<wait 2>> 
 The stars are bright outside.
+
 You gaze out the window of the court room, awaiting a meeting with the Empress.
+
 A black abyss stares back at you, speckled with bright sparks of light.
+
 There are countless stars, countless bodies out in the open space. You wonder what it will be like, to become the very things that provide you light after you are gone. To be ejected into space, wrapped nicely like a present—an offering to the other stars.
+
 At what point would you start to morph into one of them?
+
 At what point would you become the star, so unreachable yet so bright?
+
 The court room is silent while you wait. The Empress has yet to arrive. 
 <<wait 2>> 
-<< jump Scene_2>>
+<< jump Prologue_Scene_2>>
 ===

@@ -1,32 +1,34 @@
 ﻿title: Act1_Scene2
 tags:
 ---
+<<wait 2>>
 <<declare $location = "Hallway">>
 
 ADRA: “He always disappears at the most inconvenient times…”
 
-* A door opens aggressively in front of you. Vivian’s quarters.
-<<declare $door = true>>
+A door opens aggressively in front of you. Vivian’s quarters.
+<<set $door_open = true>>
 
-* Nuon appears, appearing agitated.
+Nuon appears, appearing agitated.
 
 ADRA: “There you—”
 
-* You hear Vivian shouting at Nuon from inside her quarters. She sounds almost desperate.
+You hear Vivian shouting at Nuon from inside her quarters. She sounds almost desperate.
 
 VIVIAN: “Nuon, stop being such a child! We’re not done discussing th—”
 
-* BANG! Nuon slams the door on his sister and storms down the hall. You rush to keep up and bump into Adil going in the opposite direction.
+BANG! Nuon slams the door on his sister and storms down the hall. You rush to keep up and bump into Adil going in the opposite direction.
+<<set $door_open = false>>
 
 ADIL: “Oh—my apologies, Adrasteia.”
 
 ADRA: “No, that’s my bad!”
 
-* You want to chat more with Adil, but Nuon is getting farther away. You run after him.
+You want to chat more with Adil, but Nuon is getting farther away. You run after him.
 
 ADRA: “Nuon! Wait! You need to get ready for your dance with Hylla!”
 
-* You finally catch up with him, though you struggle to keep up with his brisk pace.
+You finally catch up with him, though you struggle to keep up with his brisk pace.
 
 NUON: “That’s what I’m going to do. Or do you think I can’t handle my responsibilities too?”
 
@@ -34,20 +36,22 @@ ADRA: “What? That’s not what I… Is that what you and Princess Vivian were�
 
 NUON: “No. It’s nothing.”
 
-* He abruptly comes to a halt, and you barely catch yourself from bumping into him. You’re already in front of Nuon’s quarters.
+He abruptly comes to a halt, and you barely catch yourself from bumping into him. You’re already in front of Nuon’s quarters.
 
 NUON: “Sorry. I’ll get ready now. I’ll meet you in the ballroom.”
 
-*Nuon hurriedly enters his room, quickly closing the door behind him.
-<<set $door = false>>
+Nuon hurriedly enters his room, quickly closing the door behind him.
+<<set $door_open = false>>
 
-* You stand in front of his door, stunned for a few moments. 
+You stand in front of his door, stunned for a few moments. 
 
-* You know what it’s like to be distant from your sister, but you’ve never once seen Nuon and the Princess fight before. You haven’t even heard Princess Vivian raise her voice before today.
+You know what it’s like to be distant from your sister, but you’ve never once seen Nuon and the Princess fight before. You haven’t even heard Princess Vivian raise her voice before today.
 
 ADRA: “Oh, Nuon…”
 
-* You shake your head. Nuon must’ve done something to elicit such a response from the Princess, but you’ll ask him about that after the gala. 
+You shake your head. Nuon must’ve done something to elicit such a response from the Princess, but you’ll ask him about that after the gala. 
 
-* With one last concerned look at Nuon’s door, you return to the ballroom.
+With one last concerned look at Nuon’s door, you return to the ballroom.
+<<wait 2>>
+<<jump Act1_Scene3>>
 ===
