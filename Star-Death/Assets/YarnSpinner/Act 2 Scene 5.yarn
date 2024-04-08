@@ -1,0 +1,80 @@
+﻿title: Act_2_Scene_5
+tags:
+---
+// [LOCATION: VIVIAN’S QUARTERS]
+
+* You and Gray both arrive at the entrance hall of the late Princess Vivian’s living quarters.
+
+* It feels strange to be here. While you have occasionally stopped by here and there—as being the servant of Princess Vivian’s younger sibling naturally entailed a few visits—you’ve never been inside without the presence of a royal family member.
+
+* Now that the occupant is dead, these quarters have become a crime scene—one that the servants have been left to deal with and maybe soon repurpose.
+
+* The interior of the Princess’ quarters vaguely resemble Nuon’s, with more obviously feminine decor. There are a combination of metallic and warm scents in the air. The former is especially strong.
+
+* It could be blood. You look for any trace of it—but there isn’t any to be seen.
+
+ADRA: Light magic…?
+
+* You inhale deeply, trying to pinpoint. Another scent comes your way, a little bit earthy. But you can’t tell if any of these scents are from magic or from the rack of perfume resting on the corner of Princess Vivian’s desk.
+
+GRAY: This warm scent reminds me of Adil. That one was always at the Princess’ beck and call.
+
+ADRA: He was her head servant, Gray.
+
+GRAY: Right, right. Are you smelling the other thing too? Blood?
+
+* Gray suddenly turns away from you and shuffles about. It appears as something has caught their attention—they bend and survey the ground.
+
+* You can’t see what’s behind their figure. The source of the smell, perhaps?
+
+GRAY: Adra, come look.
+
+* Gray waves you over and you approach them from behind.
+
+GRAY: Broken glass. Can’t tell what it is though.
+
+GRAY: The servants, you think? // START OPTIONS
+-> Yes
+    ADRA: Perhaps.
+	GRAY: They sure were in a hurry to clean the place, weren’t they?
+    ADRA: …No. That isn’t right. Lower servants shouldn’t be here until we’ve fully investigated.
+-> No
+    ADRA: No, the clearance hasn’t been given. General servants shouldn’t be able to enter until the investigation is over.
+-> What do you think?
+    ADRA: You tell me.
+	GRAY: I think so.
+    ADRA: There’s no clearance for general servants until the investigation is over.
+
+// END OPTIONS 
+
+GRAY: Hmm…
+
+* It’s definitely something to keep in mind for the investigation—you have some ideas about what it could be, but you don’t share them with Gray. Mostly because these ideas are endless: glassware makes up an uncountable number of items. Less so because in the end, this investigation is mostly yours.
+
+* You leave it at that and the two of you shuffle around the room, continuing to look around.
+
+* But you find nothing.
+
+// [LOCATION: HALLWAY]
+
+* You and Gray exit into the hallway, dejected at your fruitless search. Out of the corner of your eye, you see a figure flit around in the direction of Lady Hylla’s room. With the memory of Princess Vivian’s gala, you remember your mother’s fine features clearly. And you are certain that this time—it really is her.
+
+GRAY: —!!
+
+* Before either of you react, your mom quickly disappears behind a corner. Gray’s eyes narrow.
+
+GRAY: I must go and check on Hylla. Adra, please let me know if there’s anything else I can do to help your investigation.
+
+GRAY: I wish you the best of luck.
+
+* With that, Gray leaves with haste in the direction of Lady Hylla’s room, not giving you time to even form a response.
+
+ADRA: Mom… What are you doing here?
+
+* With the end of the day nearing, you think it’s time to call your family and get some straight answers.
+
+* You obtained SHARDS OF GLASS.
+
+* You note SCENTS AT THE CRIME SCENE.
+
+===

@@ -1,5 +1,92 @@
 ﻿title: Act_2_Scene_4
 tags:
 ---
+// [LOCATION: HALLWAY]
 
+* Lady Hylla’s quarters are located not too close but not too far from Nuon’s. You don’t know whether the layout is purposeful or not—did the assignment come out of neutrality or indecision over her being Nuon’s betrothed?
+
+* Your mind wanders too much. You decide to follow your Prince’s advice closely and go on your way to speak to her. 
+
+* While you walk down the halls, however, your train of thought continues to twist and turn.
+
+* Lady Hylla had been close to the Crown Princess. In fact, she was closest to her as much as  two women could possibly be to each other. Lady Hylla would know best of Princess Vivian’s turmoil before her death, if there was any at all.
+
+* You reach the entrance to Lady Hylla’s quarters. Her servant, Gray, is standing just outside the door. You haven’t seen them since the celebration. Since the murder.
+
+GRAY: Adra! How nice it is to see you stop by. I feel like it’s been ages since you’ve visited me.
+
+ADRA: I’m here for Lady Hylla.
+
+GRAY: I’m hurt! You wouldn’t want to come visit me, just like old times?
+
+-> Be vulnerable //Option 1
+    ADRA: The investigation is ongoing—I’m tired, Gray.
+    * Gray’s features soften a little. They’re one of the only people in this part of the ship that you can feel vulnerable with.
+-> Be firm //Option 2
+    ADRA: I’m not here for you now. I’m here for Lady Hylla.
+    * Gray’s smile twitches minutely. You almost don’t catch it.
+-> Say nothing //Option 3
+    * You stare at Gray, frowning, until an awkward silence forms.
+    ADRA: …
+    GRAY: …
+
+//end of options
+
+GRAY: Alright.
+
+GRAY: Unfortunately for you, my friend, my Lady is quite terribly distraught and exhausted after the whole ordeal. The death of a loved one, ah…
+
+* Gray seems genuinely devoted and sympathetic to his lady. They always have been.
+
+GRAY: I don’t think she could provide any useful information to you, Adra. The poor thing’s been dazed, depressed, and almost soulless! 
+
+GRAY: You know how it was with the two of them. A pair separated. Stars, Adra. I’ve never seen her like this before.
+
+ADRA: Then, could you tell me what you witnessed the day of?
+
+GRAY: Of course I can, my dear. A dreadful day, but I will tell you. I’ll even monologue!
+
+GRAY: I was with Hylla before the true traditions and formalities—traditionalities—began. We were preparing her to dance with Prince Nuon.
+
+GRAY: Terribly awkward, I know. She was mingling with the other guests outside of the Court Room, and I was by her side, stuck to her like the saying, “a planet to a star.”
+
+GRAY: I noticed, though, the little black spot she was supposed to have a dance with hadn’t arrived yet. I found you there already inside, so I went to inquire.
+
+GRAY: You know how our conversation went, or need I remind you?
+
+// START OPTIONS 
+-> Yes. Remind me. //option 1
+    GRAY: I found you in the Court Room—looking like a lonely little bird by the wall. We had a small chat about Lady Pesi and some other topics, and I mentioned your missing Prince. He wasn’t there with you, so you went to look for him. We parted ways after that.
+-> No, I don’t need a reminder. //option 2
+    GRAY: You have the memory of the universe, ah? Very well.
+
+//end of options
+
+ADRA: What happened after our conversation?
+
+GRAY: I returned to my Lady’s side, of course. She still needed help prepping for her dance with that angry little man that we call Prince.
+
+ADRA: Some respect to our royals, please.
+
+GRAY: Pardon, pardon.
+
+* Gray excuses himself, but you can tell it’s for your sake rather than their actual belief.
+
+GRAY: So, yes. When Hylla was ready we headed straight to the ball together, where you saw us with those big doe eyes of yours, no? The night concluded as we both remember.
+
+* You roll said “big doe eyes” at Gray’s language, and thank them.
+
+GRAY: I’m sorry that I can’t say much more. I know this investigation is hard on you, Adra.
+
+GRAY: While I can’t provide answers, I can help you look for them. Why don’t we go investigate the scene of the crime together?
+
+GRAY: I take it you haven’t looked there yet, after all the stress. My first instinct would be to go to Prince Nuon as well, if I served him. Knowing that one—he’d likely point you to my Lady. And here you are!
+
+ADRA: ….
+
+GRAY: And so I am correct. Let’s move then, my dear.
+
+* You obtained GRAY’S ACCOUNT.
+
+<<jump Act_2_Scene_5>>
 ===
