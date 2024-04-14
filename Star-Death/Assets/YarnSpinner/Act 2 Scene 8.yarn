@@ -1,0 +1,99 @@
+﻿title: Act_2_Scene_8
+tags:
+---
+// [HALLWAY]
+
+ADRA: Amara…? Why Amara? Why did he say that?
+
+ADRA: Maybe… maybe I just looked like her. He was mistaken. Yes.
+
+*But then again, why did he have such a visceral reaction to your sister? She was only a servant when she was still alive.
+
+*Your body is trembling. Why was he so terrified? And hurting?
+
+*There has to be something you’re missing.
+
+*As you attempt to sift through your thoughts, footsteps echo up the hall. They seem to be in a hurry.
+
+HYLLA: Adrasteia, is Nuon alright? I heard terrible screams, even from my room… 
+*Lady Hylla is asking about Nuon? She’s rarely paid much attention to him in the past.
+
+*Her eyes are underlined with dark circles, much like everyone else. She seems barely able to focus on your face, and yet she still stands tall with her chin high.
+
+-> Nuon is fine.
+    ADRA: Yes, Prince Nuon is fine. A bad dream was all. 
+    HYLLA: A bad dream, are you certain? It must have been truly horrid to elicit such a reaction from him…
+    ADRA: Adil has offered to take care of him for now.
+    *Lady Hylla glances worriedly toward the door, not entirely convinced. But then a faint, warm aroma washes over you. 
+    HYLLA: Wait, I can smell his magic. Good, they have always been reliable for the ill.
+-> Nuon was terrified. 
+    ADRA: It was awful, my Lady. He was screaming and panicking as if he had been attacked. No one except him had been in there, of course, but he looked truly terrified. 
+    *Lady Hylla puts a hand to her mouth as she listens. 
+    HYLLA: Well, how is he? Do not tell me you have just left him.
+    ADRA: No, no. Adil is currently inside, soothing him. 
+    *Lady Hylla glances toward the door.
+    HYLLA: Yes, I can smell his magic. Adil has always been reliable for the ill.
+-> Ignore the question
+
+ADRA: At least you are well, my Lady. Gray told me you were so sick and distraught you couldn’t even speak clearly. 
+
+HYLLA: My, is that what they said? They do have a tendency to dramatize the truth sometimes. I am tired and in grief, certainly, but I can still carry out my sworn duty. 
+
+*So much for “dazed, depressed, and almost soulless…” 
+
+*But this seems like the chance to talk to her.
+
+ADRA: My Lady, I hate to remind you of it—but do you remember what happened the day of? And where you were? 
+
+*Lady Hylla seems to think a little. You hope she doesn’t interpret it as you accusing her.
+
+HYLLA: Before the party, I met with Nuon.
+
+HYLLA: He and I discussed performing a good dance, perhaps to mesmerize the crowd and silence their whispers. I am sure you are no stranger to noble gossip. But recently, it has been getting out of hand.
+
+HYLLA: After that discussion, I mingled outside the Court Room with Gray until the dance was scheduled to begin. Before long, they escorted me back to my room to prepare.
+
+HYLLA: It had been perhaps ten or fifteen minutes before I was ready to return, after which I left for the ballroom again.
+
+ADRA: With Gray?
+
+HYLLA: No, they had stayed behind to tidy my quarters. I do tend to make a mess of my closet for such a formal occasion as that.
+
+ADRA: Gray had said you returned together.
+
+HYLLA: They are correct. It did not take them very long to appear in the ballroom as well. 
+
+HYLLA: If you suspect Gray in any way, know that I trust them wholeheartedly. They have always been dependable as my attendant.
+
+ADRA: I see.
+
+ADRA: Why do you think the nobles might be talking about you? And Prince Nuon?
+
+*Lady Hylla looks to the side, seemingly deep in thought about something. 
+
+HYLLA: I hope you do not take any rumors you hear as factual. The people seem to believe I am disloyal in my relationship with him. Which is false.
+
+*She seems to enunciate that last part.
+
+HYLLA: It is irritating and troublesome. I admit that I should not be distancing myself or be angered with him as I have been.
+
+HYLLA: It is not his fault, especially now…
+
+ADRA: And what about Princess Vivian?
+
+HYLLA: I am engaged to Nuon. Despite what the people say, there is nothing—nothing short of friendship and trust between Vivian and I. Her death… pains me so.
+
+*A heavy silence lingers in the air.
+
+*It’s probably time to leave her alone.
+
+ADRA: I’m sorry about all this. I’m sure it hurts you and Nuon the most.
+
+*Lady Hylla nods and her eyes trail to the ground.
+
+HYLLA: Wish Nuon a quick recovery from me. 
+
+*Lady Hylla then swiftly turns and leaves the way she came.
+
+<<jump Act_2_Scene_9>>
+===

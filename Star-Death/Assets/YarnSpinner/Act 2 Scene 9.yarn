@@ -1,0 +1,221 @@
+﻿title: Act_2_Scene_9
+tags:
+---
+
+* “We headed straight to the ball together.”
+
+* “They had stayed behind to tidy my quarters.”
+
+ADRA: Why did they say different things?
+
+* Wandering the halls, you can’t help but be concerned over this little contradiction between Hylla and Gray’s accounts. It’s always these little contradictions that mean the most in the detective stories Amara read to you growing up.
+
+ADRA: …
+
+* During your aimless wandering of the halls, you find yourself a few doors down from Gray’s room.
+
+* Before you can think better of it—or even think about what to say—you’re knocking on their bedroom door.
+
+* Knock, knock.
+
+GRAY: Come in!
+
+* An immediate response, typical of Gray.
+
+* You enter the unlocked door to see Gray jot something on a notepad as they finish up a phone call.
+
+GRAY: You’ve been a great help, thank you very much Miss.
+
+GRAY: No, the pleasure’s all mine. I hope you have a lovely day.
+
+GRAY: Thank you, goodbye!
+
+* They turn to you, smiling wide.
+
+GRAY: Adra, hello! I was just about to go find you, but I guess you found me first!
+
+* Their smile falls slightly, noticing your concerned expression.
+
+GRAY: Did I do something wrong?
+
+* Exaggerated worry accompanies Gray’s joke—an attempt to lighten the mood that doesn’t quite work in this circumstance.
+
+* Gray can tell.
+
+GRAY: Oh. I guess I did.
+
+* They sit down on their bed and pat the space next to them.
+
+GRAY: What’s the matter?
+
+* You hesitate for a moment before taking a seat, leaving some space between the two of you.
+
+ADRA: I spoke to Lady Hylla today.
+
+* You look directly at them, gauging their response.
+
+GRAY: I see…
+
+* You think you see their smile wobble for a moment, but that moment was not long enough to be sure.
+
+ADRA: I’ll just be direct here, Gray. Lady Hylla said that she left for the dance before you—that you two weren’t together the entire time.
+
+GRAY: Oh.
+
+GRAY: Yeah, I believe that.
+
+* They seem unfazed.
+
+ADRA: What do you mean “yeah, I believe that”? You were there!
+
+GRAY: Sorry. I meant to say: yes, that is what happened.
+
+GRAY: Given how hectic the event was, and how much worse it got after… I guess I got turned around.
+
+GRAY: Hylla went before me because she was on a timetable—had to be the first to dance.
+
+GRAY: I stayed behind to look for a necklace that she’d misplaced.
+
+GRAY: Hm… I don’t even remember if I ever found it… I’ll have to look again.
+
+GRAY: I was in a rush, so it’s all a bit of a blur.
+
+-> Challenge their forgetfulness
+    ADRA: There’s no chance that it just slipped your mind, Gray.
+    * Gray lets out an exasperated sigh.
+    GRAY: I don’t know what to tell you, Adra. It was a hectic day and it’s not like I knew the Princess was going to be murdered—I wasn’t exactly taking close note of all of my actions.
+    GRAY: I mean could you recite exactly what you did a few days ago?
+    * Likely not.
+    ADRA: …
+    * A long beat of silence. Gray is clearly a little annoyed that you pushed this topic, but you note that for later.
+-> Ask for more details
+    ADRA: What necklace? How long were you two apart?
+    GRAY: Hylla’s favorite necklace. It’s like some silver star? She doesn’t wear it out often, but it’s usually in the same spot in her room.
+    GRAY: As for how long…
+    GRAY: Maybe ten to fifteen minutes? I’m pretty bad at gauging time.
+    * Gray is “fashionably” late to most events. It’s a wonder that Lady Hylla allows them to them get away with that.
+-> Drop it for now
+    ADRA: … Okay. I’ll believe you for now.
+    GRAY: Thank you, Adra.
+    * They smile at you, but something doesn’t feel quite right. You shrug it off for now, noting it for future investigation. You have other concerns to address.
+
+ADRA: Another question.
+
+GRAY: Ah. Please, continue.
+
+ADRA: When I talked to Lady Hylla, she seemed… sad. And stressed. But not devastated to the point of being unable to speak.
+
+GRAY: That’s good.
+
+ADRA: Yes. It meant I was able to speak with her about Princess Vivian’s death.
+
+* They look away from you, staring straight ahead and kicking their legs which dangle from their bed.
+
+GRAY: Cold, Adra. Very cold.
+
+* You have to be.
+
+ADRA: You lied to me, Gray. You’ve been hiding Lady Hylla away, even though she was fine speaking with me.
+
+GRAY: She may seem fine, Adra, but she’s a noble—”a noble who was in love with the Princess.” Of course she knows how to seem fine.
+
+ADRA: …
+
+GRAY: All I’m saying is, don’t take everyone at face value. Some people are really good at hiding their feelings.
+
+-> “Like your feelings for Lady Hylla?” }
+    ADRA: Like your feelings for Lady Hylla?
+    * Gray instinctively whips their head to look at you, shocked.
+    GRAY: What?
+    ADRA: You’re in love with her, aren’t you?
+    GRAY: …
+    * After a long beat of silence, Gray breaks out into laughter.
+    * They laugh. And laugh. And laugh. There are tears in their eyes from laughing so hard.
+    GRAY: Oh stars, no, no, that’s not what’s happening at all. Whew…
+    GRAY: Thanks, Adra, I needed that.
+    ADRA: So I take it you’re not in love with her?
+    GRAY: Haha, no, not at all. Hylla’s a mentor to me.
+    * They look away from you and lower their gaze.
+    GRAY: I admit that I’m a little protective of her.
+    * You raise an eyebrow at them.
+    GRAY: Okay. Quite protective.
+-> “How well do you know Lady Hylla?”
+    ADRA: How well do you know Lady Hylla?
+    GRAY: She’s like a mentor to me, but I also see her as a close friend.
+    GRAY: We do maintain a professional relationship, but I’ve been her shoulder to cry on and have been on the receiving end of her personal rants.
+    GRAY: I’ve been her head servant long enough to have picked up on her habits and feelings, and to see what she often keeps behind closed doors.
+    GRAY: So, I suppose I have grown rather protective of her. Both as her head servant responsible for tending to her needs, and as her friend.
+    GRAY: I don’t like to see her hurting.
+    ADRA: Why?
+-> “Why are you so protective of Lady Hylla?”
+    ADRA: Why are you so protective of Lady Hylla?
+
+GRAY: It’s pretty personal and unrelated to this investigation, but the long-story-short is that I’m deeply indebted to her.
+
+GRAY: She took me in during the worst time in my life, and I quite literally owe her my life.
+
+GRAY: I’ve been beside her for almost ten years, and I can tell that she is hurting far more than she lets on.
+
+GRAY: I wanted to give her the space and time to grieve. As her friend.
+
+* They turn to look you directly in the eye.
+
+GRAY: I am truly sorry if I impaired your investigation. I want to determine what happened to Princess Vivian, for Hylla’s sake, if anything.
+
+GRAY: Although, quite honestly, I didn’t intend to lie about the order of events during the day, it just completely escaped my mind. It seemed so inconsequential at the time.
+
+GRAY: And I do still stand by protecting Hylla from your interrogations. I’d do it again. But I am sorry that it made it more difficult for you.
+
+GRAY: I know you have your own duties and people you have to protect.
+
+ADRA: …
+
+GRAY: Here, to make it up to you—
+
+* Gray rips off the front page of the notepad they were writing on when you entered and presents it to you. It’s an address.
+
+ADRA: What’s this?
+
+GRAY: That, my dear Adra, is where your mother is staying.
+
+GRAY: You said you saw her at the gala and crime scene, right? Well, I did a little digging.
+
+GRAY: I called up the servant in charge of Princes Vivian’s guestlist, and found where all the gala attendees are staying and worked my magic.
+
+ADRA: Oh. Thank you.
+
+* You take the paper.
+
+GRAY: So then! Let’s go continue our investigation, shall we?
+
+* Gray jumps up from the bed and claps their hands together, ready to accompany you to visit your mom.
+
+* But you don’t want them there.
+
+ADRA: Gray, I think I’ll go alone. I need to go alone.
+
+* You stand and head to the door.
+
+ADRA: I really appreciate you, Gray, for both the information and the investigative support.
+
+ADRA: But this is family, and it might be “quite personal and not related to the investigation.”
+
+* Gray gives a wry smile.
+
+ADRA: I’ll see you around.
+
+GRAY: Alright. Good luck, Adra.
+
+* You leave as Gray sits back down.
+
+* Before you close the door, you swear you hear Gray let out a sigh of relief.
+
+* You take another look at the address that they gave you.
+
+* You do appreciate their efforts, but it was very clear that Gray used it to redirect the conversation—a very Gray thing to do.
+
+* You don’t think you’ll be getting any more out of them right now though, so you head to the location written on the paper to speak to your mom.
+
+* But you will be looking harder at Gray’s past soon enough.
+
+===
