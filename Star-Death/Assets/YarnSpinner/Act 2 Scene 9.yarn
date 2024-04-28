@@ -23,7 +23,7 @@ GRAY: Come in!
 * An immediate response, typical of Gray.
 
 * You enter the unlocked door to see Gray jot something on a notepad as they finish up a phone call.
-
+//<<ChangeScene(Gray's Bedroom)>>
 GRAY: You’ve been a great help, thank you very much Miss.
 
 GRAY: No, the pleasure’s all mine. I hope you have a lovely day.
@@ -209,7 +209,7 @@ GRAY: Alright. Good luck, Adra.
 * You leave as Gray sits back down.
 
 * Before you close the door, you swear you hear Gray let out a sigh of relief.
-
+//<<ChangeScene("Hallway")>>
 * You take another look at the address that they gave you.
 
 * You do appreciate their efforts, but it was very clear that Gray used it to redirect the conversation—a very Gray thing to do.

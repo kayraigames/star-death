@@ -1,6 +1,7 @@
 ﻿title: Act1_Scene3
 tags:
 ---
+//<<ChangeScene("Court Room")>>
 <<set $location = "Court Room">>
 The court is teeming with chatter when you step back in—especially now that the royal family and ties are nowhere to be found. Various scents mix in the air.
 

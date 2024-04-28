@@ -5,6 +5,8 @@ tags:
 // Adra dreams of Vivian and, in her dreams, smells an overwhelming metallic scent (the scent of dark magic).
 
 //[LOCATION: UNKNOWN]
+//location for scene purposes (stars)
+//<<ChangeScene("Stars")>>
 
 …
 

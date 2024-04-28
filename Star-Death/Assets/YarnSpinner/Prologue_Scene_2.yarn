@@ -1,5 +1,7 @@
 title: Prologue_Scene_2
 ---
+//<<ChangeScene("Court Room")>>
+
 <<declare $door_open = false>>
 EMPRESS: Adra?
 

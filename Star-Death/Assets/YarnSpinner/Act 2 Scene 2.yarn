@@ -2,10 +2,7 @@
 tags:
 ---
 <<wait 2>>
-// Adra wakes up to that same overwhelming metallic scent (dark magic) and recognizes it as the same scent of Amara’s ghost that she used to smell when Amara died. In the dark, she thinks she sees Vivian (i.e. Vivian’s ghost) hovering above her. The lights flick on and Adra screams before Adil enters, looking very tired. He apologizes for scaring Adra and tells her that she should stop sleeping as Nuon was calling for her. As she gets ready, he offers her some genuine but awkward sympathy, but leaves hastily before she can respond. Adra notices that he left a cup of hot tea on her table.
-
-// When Adra wakes, she mutters Amara’s name, recognizing the scent of her sister’s ghost as the scent of Vivian’s ghost.
-
+//<<ChangeScene("Adra's Bedroom")>>
 // [ADRA’S BEDROOM]
 
 It is dark.

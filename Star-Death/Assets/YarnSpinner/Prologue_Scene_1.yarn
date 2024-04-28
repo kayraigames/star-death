@@ -1,6 +1,8 @@
 ﻿title: Start
 tags:
 ---
+//location court room
+//<<ChangeScene("Court Room")>>
 <<wait 2>> 
 The stars are bright outside.
 
