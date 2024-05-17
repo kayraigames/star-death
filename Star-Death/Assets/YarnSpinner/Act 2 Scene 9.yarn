@@ -23,7 +23,7 @@ GRAY: Come in!
 * An immediate response, typical of Gray.
 
 * You enter the unlocked door to see Gray jot something on a notepad as they finish up a phone call.
-//<<ChangeScene(Gray's Bedroom)>>
+//<<ChangeScene("Gray's Bedroom")>>
 GRAY: You’ve been a great help, thank you very much Miss.
 
 GRAY: No, the pleasure’s all mine. I hope you have a lovely day.
@@ -217,5 +217,5 @@ GRAY: Alright. Good luck, Adra.
 * You don’t think you’ll be getting any more out of them right now though, so you head to the location written on the paper to speak to your mom.
 
 * But you will be looking harder at Gray’s past soon enough.
-
+ <<jump Act_2_Scene_10>>
 ===

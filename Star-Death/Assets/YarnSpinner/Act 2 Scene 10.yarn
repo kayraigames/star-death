@@ -1,0 +1,112 @@
+﻿title: Act_2_Scene_10
+tags:
+---
+//<<ChangeScene("Hallway")>> //[LOCATION: HALLWAY]
+
+* You will visit your mother—and investigate Gray’s past—tomorrow. For now, it is time to rest.
+
+* But you have one more stop to make before you let yourself sleep.
+
+ADRA: Adil?
+
+ADIL: Adrasteia. Good evening. It is quite late. You should get some rest.
+
+* Despite what he says, the bags under Adil’s eyes make them seem much more tired than yourself.
+
+ADRA: I wanted to check in on Nuon before heading to sleep.
+//wait 
+ADIL: It is probably best for Prince Nuon to rest for the night.
+
+ADIL: Without interruptions.
+
+ADIL: Especially given his reaction to seeing you this morning.
+//end of waits
+ADIL: Not to say that it is your fault, by any means. Prince Nuon has… troubles, completely unrelated.
+
+-> ADRA: What troubles? Is there something wrong with Nuon?
+    ADIL: I am… unsure yet. But I have seen similar symptoms before—during my family’s training where we learned how to use our white magic to treat such sickness.
+    ADIL: His symptoms seem to be spurred on by Princess Vivian’s death, as grief can make these afflictions worse.
+-> ADRA: How is Nuon?
+    ADIL: He is recovering.
+    ADIL: His symptoms seem to be magic-induced. I was trained to treat such sicknesses with my white magic. As we all are on my family.
+-> ADRA: How did you know how to treat him?
+    ADIL: I have previously seen and treated similar symptoms to the ones he was exhibiting.
+    ADIL: It seems to be magic-induced, but I wouldn’t worry. My family is trained to treat such sicknesses with our white magic.
+
+ADIL: Unfortunately, I have not seen these exact symptoms before. I only know how to slow down the process, rather than dispel it entirely.
+
+ADIL: The pain and the fear will likely return after he sleeps, so I will be available tomorrow morning as well, if need be.
+
+ADIL: And, of course, as you are Prince Nuon’s head servant, you will be the first I inform if I learn anything new.
+
+ADRA: I see. Thank you, Adil. Will I be able to see him tomorrow?
+
+ADIL: I believe so. He calmed down considerably over the course of the day. But please call on me if this happens again.
+
+ADRA: Of course.
+
+ADRA: …
+
+* This the first time you’ve been able to properly talk with Adil since Princess Vivian’s death.
+
+* Perhaps now is a good time to ask Adil about that day…
+
+ADRA: Adil—
+
+ADIL: You wish to ask me about the day of Princess Vivian’s death, yes?
+
+ADRA: Yes.
+
+ADIL: I have prepared a written account.
+
+* Adil hands you a piece of paper with his handwritten account.
+
+* You almost smile. This is very in character for Adil.
+
+ADIL: You may read it later, but I am also happy to verbally recount now, if you would like.
+-> ADRA: Could we discuss it now, if you have the time?
+    ADIL: Of course.
+    * Adil takes a moment to collect their thoughts before they begin their account.
+    ADIL: Well, since it was a celebration of Princess Vivian’s birthday, as her head servant I was responsible for many of the preparations.
+    ADIL: In all honesty, the morning was quite a blur to me. Any of the staff or guests should be able to account for my presence the majority of the time.
+    ADIL: I saw Princess Vivian only once that day for around ten minutes. I believe I passed you and Prince Nuon in the hallway then.
+    ADIL: I can confirm that at that point Princess Vivian was alive.
+    ADIL: She had summoned me to ask me how the preparations were going. I told her they were going well and asked if she would like assistance preparing for the dance. She told me no.
+    ADIL: After that, I returned to the ballroom, where others can vouch for my presence.
+    ADIL: Unfortunately, I cannot account for most others’ locations or actions during this time, as I was caught up in my own work.
+    -> ADRA: Do you know what Nuon and Princess Vivian argued about?
+        ADIL: No, I do not. Princess Vivian is very good at hiding her upset. From everyone, myself included. But I could tell, more from Prince Nuon when we passed one another, that there had been an argument.
+        ADIL: I’m sorry I can’t be more helpful. You will have to ask the Prince yourself.
+        ADRA: There’s no reason to be sorry, Adil. Thank you for your account.
+    -> ADRA: Do you enjoy being Princess Vivian’s head servant? I know it’s not a position that everyone is vying for.
+        * His response is immediate and certain, even almost offended that you’d ask.
+        ADIL: Of course.
+        ADRA: Prince Nuon mentioned that there may have been animosity between you two?
+        ADIL: Not at all.
+        ADIL: I’m not sure how familiar Prince Nuon is with my family, but we are trained to be head servants to the royal family, and we have attained our status through this role.
+        ADIL: I am nothing but grateful to her and the royal family. And Princess Vivian was a great Princess and a good person.
+        ADRA: I see. I apologize.
+        ADIL: It’s not a problem. Apologies if I seemed defensive. I take great pride in my work.
+        ADRA: It’s appreciated. Thank you, Adil.
+    -> ADRA: Thank you, Adil.
+    ADIL: Of course. Please let me know if there is anything else I can do for you.
+    * You nod to Adil before returning to your room.
+    // //<<ChangeScene("Adra's Bedroom")>> //[LOCATION: ADRA’S QUARTERS]
+    * Once in your room, you skim over Adil’s written account.
+    * Nothing new to note that they didn’t cover himself.
+-> ADRA: I’ll read it later. Thank you, Adil.
+    ADIL: Of course. Please get some sleep, Adrasteia.
+    ADRA: Thank you. You too, Adil.
+    // <<ChangeScene("Adra's Bedroom")>> //[LOCATION: ADRA’S QUARTERS]
+    * Once in your room, you sit at your desk and begin reading Adil’s written account.
+    * My account of Mensis 1, 3072.
+    * I oversaw the preparations for Princess Vivian’s birthday celebration for the majority of the day. I left for around 15 minutes later in the day when summoned by Princess Vivian. I was unsure why she summoned me, nor the exact time.
+    * On my way to Princess Vivian’s quarters, I passed by Adrasteia and Prince Nuon. Prince Nuon seemed very upset, likely due to an argument between him and Princess Vivian, although I am unsure what the argument was about.
+    * Princess Vivian asked me for an update regarding the celebration, as she had not yet made an appearance. I explained that things had been going smoothly, and asked her if she would like help preparing for her appearance and dance. She said she did not require assistance.
+    * After that, I returned directly to the ballroom where others can vouch for my presence.
+    * I cannot account for most others’ locations or actions during this time, as I was caught up in my own work.
+
+* You obtained ADIL’S ACCOUNT.
+
+
+===
