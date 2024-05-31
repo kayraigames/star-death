@@ -2,7 +2,7 @@
 tags:
 ---
 <<wait 2>>
-//<<ChangeScene("Adra's Bedroom")>>
+//<<ChangeScene "Adra's_Bedroom"s>>
 // [ADRA’S BEDROOM]
 
 It is dark.

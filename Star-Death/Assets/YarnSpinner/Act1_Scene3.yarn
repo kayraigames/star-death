@@ -1,8 +1,9 @@
 ﻿title: Act1_Scene3
 tags:
 ---
-//<<ChangeScene("Court Room")>>
+
 <<set $location = "Court Room">>
+//<<ChangeScene $location>>
 The court is teeming with chatter when you step back in—especially now that the royal family and ties are nowhere to be found. Various scents mix in the air.
 
 While the Empress and her husband sit at the front of the room, they are hidden by a curtain, isolated from the festivities. It’s usually like this.

@@ -2,7 +2,7 @@
 tags:
 ---
 
-//<<ChangeScene("Adra's Bedroom")>>
+//<<ChangeScene "Adra's_Bedroom">>
 // [ADRA’S BEDROOM]
 
 ADRA: Ah, finally…

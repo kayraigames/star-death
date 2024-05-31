@@ -3,7 +3,7 @@ tags:
 ---
 <<wait 2>>
 <<declare $location = "Hallway">>
-//<<ChangeScene("Hallway")>>
+//<<ChangeScene $location>>
 
 ADRA: “He always disappears at the most inconvenient times…”
 

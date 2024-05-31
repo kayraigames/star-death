@@ -6,7 +6,8 @@ tags:
 
 //[LOCATION: UNKNOWN]
 //location for scene purposes (stars)
-//<<ChangeScene("Stars")>>
+<<set $location = "Stars">>
+//<<ChangeScene location>>
 
 …
 

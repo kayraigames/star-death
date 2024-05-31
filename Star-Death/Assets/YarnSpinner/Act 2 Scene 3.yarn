@@ -3,7 +3,7 @@ tags:
 ---
 
 // Location: Nuon's Headquarters
-//<<ChangeScene("Nuon's Headquarters)>>
+//<<ChangeScene "Nuon's_Headquarters">>
 
 ADRA: Hi, Nuon, how’re you doing? No…
 

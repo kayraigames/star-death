@@ -1,8 +1,8 @@
 ﻿title: Act_2_Scene_8
 tags:
 ---
-// [HALLWAY]
-//<<ChangeScene("Hallway")>>
+<<set $location = "Hallway">>
+//<<ChangeScene location>>
 
 ADRA: Amara…? Why Amara? Why did he say that?
 

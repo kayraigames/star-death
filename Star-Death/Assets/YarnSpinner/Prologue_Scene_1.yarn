@@ -1,8 +1,8 @@
 ﻿title: Start
 tags:
 ---
-//location court room
-//<<ChangeScene("Court Room")>>
+<<set $location = "Court Room">>
+<<ChangeScene($location)>>
 <<wait 2>> 
 The stars are bright outside.
 
@@ -18,5 +18,5 @@ At what point would you become the star, so unreachable yet so bright?
 
 The court room is silent while you wait. The Empress has yet to arrive. 
 <<wait 2>> 
-<< jump Prologue_Scene_2>>
+<<jump Prologue_Scene_2>>
 ===

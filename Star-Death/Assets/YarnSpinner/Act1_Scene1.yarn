@@ -2,8 +2,8 @@
 tags:
 ---
 
-//location: ballroom??
-//<<ChangeScene("Ballroom")>>
+<<set $location = "Ballroom">>
+//<<ChangeScene $location>>
 The night is alive. 
 
 You find a spot against the wall, pruning any wrinkles in your tunic. It’s far from opulent, especially compared to some of the dresses that occupy the space, but it’s more than plenty. 
