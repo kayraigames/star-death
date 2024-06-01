@@ -1,7 +1,7 @@
 title: Prologue_Scene_2
 ---
 <<set $location = "Court Room">>
-//<<ChangeScene($location)>>
+<<ChangeScene Court_Room>>
 
 <<declare $door_open = false>>
 <<loadCharacterSprite Adil_placeholder>>

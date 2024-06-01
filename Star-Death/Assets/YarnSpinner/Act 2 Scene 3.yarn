@@ -2,8 +2,9 @@
 tags:
 ---
 
-// Location: Nuon's Headquarters
-//<<ChangeScene "Nuon's_Headquarters">>
+// Location: hallway -> Nuon's Headquarters
+
+<<ChangeScene Hallway>>
 
 ADRA: Hi, Nuon, how’re you doing? No…
 
@@ -36,6 +37,8 @@ NUON: Come in.
 He definitely sounds angrier than you did back then, but that’s to be expected from Nuon. You shyly open the door.
 <<set $door_open = true>>
 
+<<ChangeScene Nuon's_Bedroom>> //Nuon's Headquarters but bedroom for now
+ 
 -> How are you doing? //option 1
     ADRA: Hey, Nuon, how are—
 -> We have somethings to discuss //option 2

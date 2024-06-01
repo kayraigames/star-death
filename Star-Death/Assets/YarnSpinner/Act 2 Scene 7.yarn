@@ -32,7 +32,7 @@ tags:
 * You creep through the silent hallways until you hear… screaming?
 
 * Your pace quickens with your heart rate as your suspicion grows: the screaming is coming from Nuon’s room.
-//<<ChangeScene "Nuon's_Bedroom">>
+<<ChangeScene Nuon's_Bedroom>>
 * You burst into his room from an all-out sprint and are instantly hit with a strong scent of… blood?
 
 * But there is no blood. Thankfully.
@@ -98,7 +98,7 @@ ADIL: Adrasteia.
 ADIL: Please leave us, Adrasteia.
 
 <<set $location = "Hallway">>
-//<<ChangeScene "Hallway">>
+<<ChangeScene Hallway>>
 
 * You scurry out, closing the door behind you, but you linger outside to listen. Your nerves calm as each minute passes without Nuon’s screams.
 

@@ -57,7 +57,7 @@ GRAY: Hmm…
 * But you find nothing.
 
 <<set $location = "Hallway">>
-//<<ChangeScene location>> // [LOCATION: HALLWAY]
+<<ChangeScene Hallway>> // [LOCATION: HALLWAY]
 
 * You and Gray exit into the hallway, dejected at your fruitless search. Out of the corner of your eye, you see a figure flit around in the direction of Lady Hylla’s room. With the memory of Princess Vivian’s gala, you remember your mother’s fine features clearly. And you are certain that this time—it really is her.
 

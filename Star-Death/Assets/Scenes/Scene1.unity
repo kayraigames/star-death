@@ -525,21 +525,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bec29c0a230741bdac901dba8da47ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1750241239
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1750241237}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.95284, y: -3.2476993, z: 4.1038294}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2131533988
 GameObject:
   m_ObjectHideFlags: 0
@@ -685,9 +670,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1861063336}
     - target: {fileID: 4044349989093759327, guid: 6c21dc7d625c745fe92b96fb26d784ed, type: 3}
+      propertyPath: spriteArray.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044349989093759327, guid: 6c21dc7d625c745fe92b96fb26d784ed, type: 3}
       propertyPath: backgroundSpriteRenderer
       value: 
-      objectReference: {fileID: 2088121983}
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044349989093759327, guid: 6c21dc7d625c745fe92b96fb26d784ed, type: 3}
+      propertyPath: spriteArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: e65911d0ad7e21344ade020c06c3703f, type: 3}
     - target: {fileID: 7034278806664406099, guid: 6c21dc7d625c745fe92b96fb26d784ed, type: 3}
       propertyPath: m_Name
       value: background
@@ -703,5 +696,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 2131533991}
   - {fileID: 325055189}
-  - {fileID: 1750241239}
   - {fileID: 1746180588}
+  - {fileID: 7721745722357013646}

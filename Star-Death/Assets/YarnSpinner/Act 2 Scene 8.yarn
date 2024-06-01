@@ -2,7 +2,7 @@
 tags:
 ---
 <<set $location = "Hallway">>
-//<<ChangeScene location>>
+<<ChangeScene Hallway>>
 
 ADRA: Amara…? Why Amara? Why did he say that?
 

@@ -13,10 +13,9 @@ public class BackgroundChange : MonoBehaviour
     
     private void Awake()
     {
-        // get handles of utility objects in the scene that we need
         dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
 
-        backgroundSR = gameObject.GetComponent<SpriteRenderer>();
+        backgroundSR = gameObject.GetComponent<SpriteRenderer>(); //sprite renderer 
 
         // <<ChangeScene background>>
         dialogueRunner.AddCommandHandler<string>("ChangeScene", ChangeScene);
@@ -25,12 +24,6 @@ public class BackgroundChange : MonoBehaviour
     //[YarnCommand("ChangeScene")]
     public void ChangeScene(string location)
     {
-        
-
-
-        Debug.Log("called");
-        //Sprite sprite = Resources.Load<Sprite>("Final_Sprites/" + location);
-        
         int index = 0; //default = hallway
         switch (location)
         {
@@ -41,16 +34,15 @@ public class BackgroundChange : MonoBehaviour
                 index = 1;
                 break;
             case "Throne_Room":
-                index = 2;
-                break;
             case "Ballroom":
-                index = 2;
-                break;
             case "Court_Room":
                 index = 2;
                 break;
             case "Stars":
                 index = 3;
+                break;
+            case "Nuon's_Bedroom":
+                index = 4;
                 break;
         }
        
