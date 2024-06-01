@@ -2,7 +2,7 @@
 tags:
 ---
 <<set $location = "Court Room">>
-//<<ChangeScene Court_Room>
+<<ChangeScene Court_Room>>
 <<wait 2>> 
 The stars are bright outside.
 
