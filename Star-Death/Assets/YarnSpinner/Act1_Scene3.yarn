@@ -10,8 +10,10 @@ While the Empress and her husband sit at the front of the room, they are hidden 
 
 You can hear whispers from the court as you wander, waiting for Nuon. You wander for quite a while.
 
+<<loadCharacterSprite Adil_placeholder>>
 NOBLEMAN: Is that not the Prince’s servant?
 
+<<loadCharacterSprite Adil_placeholder>>
 NOBLEWOMAN: Right, yes, that’s Adrasteia! She’s a quiet one, isn’t she?
 
 NOBLEMAN: Honestly, I wonder how she feels about the affair—it’s been quite some time now—
@@ -19,9 +21,12 @@ NOBLEMAN: Honestly, I wonder how she feels about the affair—it’s been quite 
 NOBLEWOMAN: Lady Hylla with the Crown Princess, our Prince’s very own sister!
 
 NOBLEMAN: Quiet—he’s here! Begone!
+<<destroyCharacterSprite Adil_placeholder>>
 
 You keep walking, trying your best to appear unfazed, until you circle around to where Nuon is waiting. He looks the same; furious, restless, and agitated.
+<<destroyCharacterSprite Adil_placeholder>>
 
+<<loadCharacterSprite Neutral_Nuon>>
 At least his outfit is nice. It’s the one you picked out for him with the celebration’s theme in mind, and thankfully, not too complicated.
 
 ADRA: My Prince.
@@ -32,6 +37,7 @@ ADRA: Crown Princess Vivian should arrive soon. Are you—
 
 Suddenly, a new smell wafts toward you. It’s clean, almost sterile.
 
+<<loadCharacterSprite Neutral_Adil>>
 ADIL: Prince. Adrasteia.
 
 ADRA: Adil.
@@ -53,6 +59,8 @@ Nuon’s fiancée, Lady Hylla, is now at the front of the room by the curtain. S
 She seems especially stiff tonight, but you’ve never been good at reading Lady Hylla.
 
 ADIL: Let’s have the couple open the floor.
+<<destroyCharacterSprite Neutral_Nuon>>
+<<destroyCharacterSprite Neutral_Adil>>
 
 A signal is made, and Nuon and Hylla meet each other from opposite ends of the room to begin their dance. Heavenly music floats through the air.
 
@@ -70,6 +78,7 @@ Mother?
 
 The melody transitions, and with it so does your partner. You hastily pass yourself off to someone, and Gray’s concerned face appears in front of you. They must have come in with Lady Hylla.
 
+<<loadCharacterSprite Fearful_Gray>>
 GRAY: Adra!
 
 ADRA: Gray—
@@ -81,6 +90,7 @@ ADRA: I’m sorry—
 EEEEEEEEEEEEEEK!
 
 A scream cuts through the crowd, followed by another, and another, until the lofty music is overwhelmed entirely and replaced by a cacophony of shrieks.
+<<destroyCharacterSprite Fearful_Gray>>
 
 You lose track of your mother. You lose track of Gray.
 

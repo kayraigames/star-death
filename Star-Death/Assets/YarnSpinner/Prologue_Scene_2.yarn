@@ -4,6 +4,7 @@ title: Prologue_Scene_2
 //<<ChangeScene($location)>>
 
 <<declare $door_open = false>>
+<<loadCharacterSprite Adil_placeholder>>
 EMPRESS: Adra?
 
 <<set $door_open = true>> The Empress herself enters the room. 
@@ -44,5 +45,7 @@ EMPRESS: Remember, five days.
 <<declare $day = 5>>
 
 EMPRESS: If there are no further questions, you are dismissed.
+<<destroyCharacterSprite Adil_placeholder>>
+
 <<jump Act1>>
 === 
