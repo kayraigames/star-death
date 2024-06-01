@@ -10,25 +10,33 @@ ADRA: “He always disappears at the most inconvenient times…”
 A door opens aggressively in front of you. Vivian’s quarters.
 <<set $door_open = true>>
 
+<<loadCharacterSprite Sad_Nervous_Nuon>>
 Nuon appears, appearing agitated.
 
 ADRA: “There you—”
 
 You hear Vivian shouting at Nuon from inside her quarters. She sounds almost desperate.
 
+<<loadCharacterSprite Adil_placeholder>>
 VIVIAN: “Nuon, stop being such a child! We’re not done discussing th—”
+
+<<destroyCharacterSprite Adil_placeholder>>
+<<destroyCharacterSprite Sad_Nervous_Nuon>>
 
 BANG! Nuon slams the door on his sister and storms down the hall. You rush to keep up and bump into Adil going in the opposite direction.
 <<set $door_open = false>>
 
+<<loadCharacterSprite Happy_Adil>>
 ADIL: “Oh—my apologies, Adrasteia.”
 
 ADRA: “No, that’s my bad!”
 
 You want to chat more with Adil, but Nuon is getting farther away. You run after him.
+<<destroyCharacterSprite Happy_Adil>>
 
 ADRA: “Nuon! Wait! You need to get ready for your dance with Hylla!”
 
+<<loadCharacterSprite Neutral_Nuon>>
 You finally catch up with him, though you struggle to keep up with his brisk pace.
 
 NUON: “That’s what I’m going to do. Or do you think I can’t handle my responsibilities too?”
@@ -40,6 +48,7 @@ NUON: “No. It’s nothing.”
 He abruptly comes to a halt, and you barely catch yourself from bumping into him. You’re already in front of Nuon’s quarters.
 
 NUON: “Sorry. I’ll get ready now. I’ll meet you in the ballroom.”
+<<destroyCharacterSprite Neutral_Nuon>>
 
 Nuon hurriedly enters his room, quickly closing the door behind him.
 <<set $door_open = false>>
