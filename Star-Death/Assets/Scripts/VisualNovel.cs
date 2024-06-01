@@ -44,6 +44,9 @@ public class VisualNovel : MonoBehaviour
         
         // Assign the loaded sprite to the SpriteRenderer
         spriteRenderer.sprite = sprite;
+
+        // Assign sorting layer of character sprite to foreground
+        spriteRenderer.sortingLayerName = "Foreground";
         
         // Optionally, set the position of the new GameObject
         spriteObject.transform.position = Vector2.zero;

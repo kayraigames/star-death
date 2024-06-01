@@ -18,6 +18,7 @@ It’s Gray, an old family friend, and they’re nursing some kind of cocktail. 
 
 ADRA: Gray.
 
+<<loadCharacterSprite Ecstatic_Gray>>
 Gray smiles at you, their eyes slitting in a look of genuine affection.
 
 GRAY: Adra!
@@ -41,13 +42,17 @@ GRAY: I wanted to see you in something more spectacular, but your good face save
 It’s obviously a mindless compliment, considering that your mother is a figure of much political discourse as of late. Gray is quick to move on—you probably wouldn’t want to be reminded of that on what’s supposed to be a joyous occasion.
 
 GRAY: Have you seen the audacity on some of these gowns? Lady Pesi is in a pink thing, from head to toe—but the shape is rather unflattering, and the sequins are so pointy.
+<<destroyCharacterSprite Ecstatic_Gray>>
 
+<<loadCharacterSprite Angry_Gray>>
 Gray grimaces, their eyebrows raising in amusement.
 
 GRAY: Like a freshly plucked pheasant.
 
 ADRA: Poignant description—I’m not going to gossip with you right now.
+<<destroyCharacterSprite Angry_Gray>>
 
+<<loadCharacterSprite Neutral_Gray>>
 GRAY: Oh, but you will later? Maybe when a glass of something fizzy and boozy is down the hatch?
 
 ADRA: Not all of us are crippling alcoholics like you, Gray.
@@ -67,7 +72,9 @@ GRAY: That one likes his black, doesn’t he?
 You recall the endless sea of black that is Nuon’s closet—black shoes, dresses, accessories—you’ll never be able to enjoy the color again.
 
 ADRA: You don’t know the start of it.
+<<destroyCharacterSprite Neutral_Gray>>
 
+<<loadCharacterSprite Ecstatic_Gray>>
 Gray snickers again, eyes playful and fond.
 
 GRAY: Really, though. You’re a head servant, not a military general, Adra. You should be thriving amongst nobility. There’s nothing to whip into shape other than sheets and pillow covers—I don’t know why you’re dead set on sporting such a boring expression all the time.
@@ -99,7 +106,9 @@ ADRA: That diamond is garish. I’ll give you that.
 GRAY: That’s not a no…?
 
 ADRA: It’s a no.
+<<destroyCharacterSprite Ecstatic_Gray>>
 
+<<loadCharacterSprite Neutral_Gray>>
 Gray shrugs, animated. They start to fix their buckle straps—anyone would, when presumably about to meet someone as influential as Lady Hylla.
 
 GRAY: And you’ve been alright? Nothing eating at your mind? Or, less than usual at least, I’d hope.
@@ -133,6 +142,7 @@ ADRA: …Thank you.
 GRAY: Good luck with finding Prince Nuon. You might need it.
 
 Gray offers a final small nod and grin before turning and leaving the way he came.  He moves with a confidence you’ve yet to find for yourself.
+<<destroyCharacterSprite Neutral_Gray>>
 
 Sighing, you also turn to depart.
 
