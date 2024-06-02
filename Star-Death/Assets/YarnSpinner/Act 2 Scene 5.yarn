@@ -18,6 +18,8 @@ ADRA: Light magic…?
 
 * You inhale deeply, trying to pinpoint. Another scent comes your way, a little bit earthy. But you can’t tell if any of these scents are from magic or from the rack of perfume resting on the corner of Princess Vivian’s desk.
 
+<<loadCharacterSprite Neutral_Gray>>
+<<moveCharacter Neutral_Gray 1 -0.5>>
 GRAY: This warm scent reminds me of Adil. That one was always at the Princess’ beck and call.
 
 ADRA: He was her head servant, Gray.
@@ -28,6 +30,7 @@ GRAY: Right, right. Are you smelling the other thing too? Blood?
 
 * You can’t see what’s behind their figure. The source of the smell, perhaps?
 
+<<moveCharacter Neutral_Gray 4 -0.5>>
 GRAY: Adra, come look.
 
 * Gray waves you over and you approach them from behind.
@@ -55,12 +58,15 @@ GRAY: Hmm…
 * You leave it at that and the two of you shuffle around the room, continuing to look around.
 
 * But you find nothing.
+<<destroyCharacterSprite Neutral_Gray>>
 
 <<set $location = "Hallway">>
 <<ChangeScene Hallway>> // [LOCATION: HALLWAY]
 
 * You and Gray exit into the hallway, dejected at your fruitless search. Out of the corner of your eye, you see a figure flit around in the direction of Lady Hylla’s room. With the memory of Princess Vivian’s gala, you remember your mother’s fine features clearly. And you are certain that this time—it really is her.
 
+<<loadCharacterSprite Neutral_Gray>>
+<<moveCharacter Neutral_Gray 3 -0.5>>
 GRAY: —!!
 
 * Before either of you react, your mom quickly disappears behind a corner. Gray’s eyes narrow.
@@ -68,6 +74,7 @@ GRAY: —!!
 GRAY: I must go and check on Hylla. Adra, please let me know if there’s anything else I can do to help your investigation.
 
 GRAY: I wish you the best of luck.
+<<destroyCharacterSprite Neutral_Gray>>
 
 * With that, Gray leaves with haste in the direction of Lady Hylla’s room, not giving you time to even form a response.
 

@@ -20,6 +20,9 @@ public class VisualNovel : MonoBehaviour
         // <<destroyCharacterSprite NAME_OF_SPRITE>>
         dialogueRunner.AddCommandHandler<string>("destroyCharacterSprite", DestroyCharacterSprite);
 
+        // <<moveCharacter NAME_OF_SPRITE X Y >>
+        dialogueRunner.AddCommandHandler<string,float,float>("moveCharacter", ChangeCharacterPosition);
+
         // <<fadeIn DURATION>>
 
         // <<fadeOut DURATION>>
@@ -65,5 +68,18 @@ public class VisualNovel : MonoBehaviour
         {
             Debug.LogError("GameObject not found: " + spriteName);
         }
+    }
+
+    public void ChangeCharacterPosition(string spriteName, float x, float y)
+    {
+        GameObject sprite = GameObject.Find(spriteName);
+        if (sprite == null)
+        {
+            Debug.LogError("GameObject not found: " + spriteName);
+            return;
+        }
+
+        // Set the new position of the GameObject
+        sprite.transform.position = new Vector2(x, y);
     }
 }

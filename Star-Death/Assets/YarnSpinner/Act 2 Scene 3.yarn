@@ -38,7 +38,7 @@ He definitely sounds angrier than you did back then, but that’s to be expected
 <<set $door_open = true>>
 
 <<ChangeScene Nuon's_Bedroom>> //Nuon's Headquarters but bedroom for now
- 
+
 -> How are you doing? //option 1
     ADRA: Hey, Nuon, how are—
 -> We have somethings to discuss //option 2
@@ -46,6 +46,8 @@ He definitely sounds angrier than you did back then, but that’s to be expected
 -> Say nothing //option 3
     ADRA: …
 
+<<loadCharacterSprite Angrier_Nuon>>
+<<moveCharacter Angrier_Nuon 3 -0.5>>
 NUON: Adil told me about the trial. And how you’re the one defending me. You know I didn’t do it. You saw me on the day.
 
 NUON: We talked, but I… I left her alive. You heard her.
@@ -54,22 +56,27 @@ ADRA: I—
 
 NUON: You’re my witness, you have to tell them that you were with me when it happened. That I didn’t even have the opportunity to… to…
 
+<<moveCharacter Angrier_Nuon 1 -0.5>>
 Nuon is pacing around the room in random patterns. He’s not looking at you—it’s almost as if he’s not even talking to you, just repeating things that he’s been using to comfort himself over the past few days.
+<<moveCharacter Angrier_Nuon 3 -0.5>>
 
 ADRA: Nuon…
 
 NUON: I didn’t kill her, Adra! Vivian— I didn’t…! I didn’t! And now what do I do? She’s gone and I’m the next in line for the throne, but I won’t be if they decide that I killed my own sister!
 
+<<moveCharacter Angrier_Nuon 1 -0.5>>
 NUON: But maybe that’s better, because I can’t be— you heard her, I’m not ready for this. I’m not fit for this. I can’t lead!
 
 ADRA: Nuon, what’re you talking about?
 
 NUON: Why me and not one of the dozens of other jealous people who were at the party? Vivian isn’t perfect, you know? She isn’t perfect.
 
+<<moveCharacter Angrier_Nuon 3 -0.5>>
 NUON: She’s fucked up before. She’s probably fucked up all of those people’s lives too, and they just couldn’t say it, so they killed her instead!
 
 NUON: Or Hylla! Vivian’s always loved the attention, and maybe Hylla just isn’t giving her enough!
 
+<<moveCharacter Angrier_Nuon 1 -0.5>>
 NUON: Or Adil! He’s had to trail after her for years, tending to her every need! He probably hates Vivian—hated Vivian… hates Vivian…
 
 ADRA: Nuon…
@@ -78,6 +85,7 @@ NUON: Or Gray! Everyone knows they’re in love with—
 
 ADRA: Nuon! Prince!
 
+<<moveCharacter Angrier_Nuon 3 -0.5>>
 He finally stops pacing and turns to look at you. You finally see the dark circles that contrast with his pale face. He hasn’t slept since her death, has he? Not really, anyway. He hasn’t been allowed outside either.
 
 You get it. You feel like you didn’t sleep a wink for weeks after Amara… And yet you can still remember the nightmares—you still feel them in your stomach. You wonder if it’s the same for Nuon.
@@ -87,7 +95,10 @@ But you don’t have time to pity him or worry about him right now. You have a j
 ADRA: I don’t think you did it. But it’s not me you have to convince. So work with me here. Please.
 
 ADRA: Can you walk me through what happened on the day?
+<<destroyCharacterSprite Angrier_Nuon>>
 
+<<loadCharacterSprite Sad_Nervous_Nuon>>
+<<moveCharacter Sad_Nervous_Nuon 3 -0.5>>
 NUON: …
 
 ADRA: We both need this. So can we please just approach it rationally? I’ll gather evidence. I’ll defend you.
@@ -99,7 +110,10 @@ ADRA: We’ll find your sister’s real killer and bring them to justice.
 NUON: …
 
 ADRA: Nuon…
+<<destroyCharacterSprite Sad_Nervous_Nuon>>
 
+<<loadCharacterSprite Neutral_Nuon>>
+<<moveCharacter Neutral_Nuon 3 -0.5>>
 NUON: Hylla and I met the morning of Vivian’s birthday gala. We didn’t want to cause a scene, so I asked if we could put on a show… act like everything’s normal between us…
 
 NUON: But she hates me. For no reason! I don’t even want this arranged marriage! I didn’t know what an arranged marriage was when Mother and Father forced me into it ten years ago! I don’t even care about her and Vivian’s affair! But—
@@ -174,7 +188,9 @@ ADRA: May I go now?
 Nuon waves his hand to dismiss you before going back to pacing, but before you can open the door to leave…
 
 NUON: Wait. Talk to Hylla. She… knew Vivian better than I did. At least… at the end.
+<<destroyCharacterSprite Neutral_Nuon>>
 
+<<ChangeScene Hallway>>
 You nod before quickly slipping through the door, closing it gently behind you.
 <<set $door_open = false>>
 

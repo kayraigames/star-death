@@ -16,6 +16,8 @@ ADRA: Maybe… maybe I just looked like her. He was mistaken. Yes.
 
 *As you attempt to sift through your thoughts, footsteps echo up the hall. They seem to be in a hurry.
 
+<<loadCharacterSprite Neutral_Hylla>>
+<<moveCharacter Neutral_Hylla 2 -0.5>>
 HYLLA: Adrasteia, is Nuon alright? I heard terrible screams, even from my room… 
 *Lady Hylla is asking about Nuon? She’s rarely paid much attention to him in the past.
 
@@ -93,7 +95,7 @@ ADRA: I’m sorry about all this. I’m sure it hurts you and Nuon the most.
 *Lady Hylla nods and her eyes trail to the ground.
 
 HYLLA: Wish Nuon a quick recovery from me. 
-
+<<destroyCharacterSprite Neutral_Hylla>>
 *Lady Hylla then swiftly turns and leaves the way she came.
 
 <<jump Act_2_Scene_9>>

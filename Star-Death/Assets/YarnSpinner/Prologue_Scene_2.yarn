@@ -5,6 +5,7 @@ title: Prologue_Scene_2
 
 <<declare $door_open = false>>
 <<loadCharacterSprite Adil_placeholder>>
+<<moveCharacter Adil_placeholder 4 -0.5>>
 EMPRESS: Adra?
 
 <<set $door_open = true>> The Empress herself enters the room. 
