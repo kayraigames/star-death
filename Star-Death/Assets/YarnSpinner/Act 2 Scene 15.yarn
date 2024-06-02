@@ -1,0 +1,102 @@
+﻿title: Act_2_Scene_15
+tags:
+---
+<<ChangeScene Hallway>> //[HALLWAY]
+
+*You eventually find Lady Hylla in the halls, staring thoughtfully out the window into the vast abyss. 
+
+ADRA: Lady Hylla.
+
+HYLLA: Greetings, Adra. How has your investigation been progressing?
+
+ADRA: Actually, there’s something I’d like to talk to you about. It’s about Princess Vivian.
+
+*Lady Hylla seems to tense. Or has she always been tense in the way she holds herself?
+
+HYLLA: Go on.
+
+//{ START OPTIONS }
+
+-> You had something to do with the murder.
+    *Lady Hylla looks incredulous.
+    HYLLA: Excuse me, Adra? I swear upon all the stars I never could have attempted such a ruinous thought. And I will not tolerate this blatant insolence from you.
+    HYLLA: What led you to even imagine such a conclusion?
+    ADRA: You fought with her the day she was killed.
+    *Her eyes pierce through your skull, as if searching your mind for how you found out.
+    HYLLA: Perhaps I did. But if a single act of animosity leads you to accusation, maybe we should rethink your position in solving this case. 
+    HYLLA: However, I will ignore your disrespect this once, and attempt to elucidate your view of me. 
+-> You had an argument with Princess Vivian.
+    ADRA: Before Princess Vivian was killed, you were arguing with her in her quarters. Is that right?
+    *Her eyes pierce through your skull, as if searching your mind for how you found out.
+    ADRA: Why did you hide it before?
+    HYLLA: …
+-> Princess Vivian attacked you.
+    *Lady Hylla is speechless.
+    HYLLA: I beg your pardon? She never so much as laid a hand on me. Where did you hear this ridiculous news?
+    ADRA: My mother. She heard the two of you fighting in Princess Vivian’s quarters.
+    HYLLA: …
+    HYLLA: Are you sure she was not mistaken?
+    *By that pause, you believe you’ve hit a mark.
+    ADRA: No, I believe her. You were with Crown Princess Vivian that day.
+    *Lady Hylla sighs, with a hint of defeat rather than irritation.
+    HYLLA: I suppose we did fight, verbally, mind you. It hurts to think that was my final interaction with her. //with [With some kind of sad expression]
+
+// { END OPTIONS }
+
+HYLLA: Vivian is a remarkable personality, to say the least. She’s focused, scholarly, responsible. Perhaps some part of that drew me to her. I spent more time with her than I did with Nuon.
+
+HYLLA: I thoroughly enjoyed my time with her, a feeling that, in all honesty, did not translate over to my own fianceé.
+
+HYLLA: Do not misunderstand. It is not like I despise Nuon. Rather, it resembles the difference between a friend that has known you for years and a mere acquaintance. You are more relaxed and open to the former. 
+
+HYLLA: Naturally, Nuon questioned why I was so distant to him. Vivian questioned how ‘we’ could continue, especially in the eyes of the public.
+
+HYLLA: …I questioned my own feelings. We… quarreled over it that day. It was ignorant of me.
+
+*You aren’t sure how to respond to Lady Hylla revealing her heart like that.
+
+HYLLA: If I had known what would happen mere moments later, I–
+
+*A distinct metallic smell wafts up your nose. Lady Hylla seems to smell it too, and her eyes dart up, alert. 
+
+*She suddenly looks terrified.
+
+*The scent grows stronger, overpowering your senses. 
+
+*In a flash of bright, white light, ice shards shoot out of Lady Hylla’s hands, catching the edges of your clothes as you flinch and jump to the side.
+
+*Some shards pierce the ground, and the floor freezes into a thin sheet of ice. Some have dented themselves into the wall, spreading frost in a cracked circle like a spider’s web.
+
+*The smell of fresh water hits your nose and a blast of wind bites at your skin.
+
+*Clutching her chest, Lady Hylla is breathing quickly.
+
+HYLLA: Oh my–I’m so sorry, Adra. I–
+
+*You try to jolt yourself out of your surprise and straighten your back.
+
+ADRA: It’s alright, my Lady, what happened?
+
+*You look around, but there isn’t anyone else in the hall. The metal scent is replaced by the smell of fresh, cold water.
+
+*Lady Hylla takes a deep breath and regains her steady posture and composure.
+
+HYLLA: I’m sorry, it must have been some star bunny. I’ve been irrationally nervous ever since Vivian…
+
+ADRA: It’s–it’s okay, really. I didn’t know you had magical capabilities.
+
+HYLLA: Well, I don’t like to use them often. I was never really properly trained as a child, as you can see…
+
+HYLLA: I– I think I should return to my quarters. I desperately need to calm myself down. I apologize again, Adra. 
+
+*Lady Hylla swiftly turns and leaves before you can say goodbye.
+
+*You look at the ice below you, which has begun to thaw and melt into water.
+
+*What an interesting revelation.
+
+*You updated HYLLA’S ACCOUNT.
+
+*You obtained HYLLA’S MAGICAL CAPABILITIES.
+
+===

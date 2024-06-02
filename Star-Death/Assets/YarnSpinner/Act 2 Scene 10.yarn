@@ -95,14 +95,14 @@ ADIL: You may read it later, but I am also happy to verbally recount now, if you
     ADIL: Of course. Please let me know if there is anything else I can do for you.
     <<destroyCharacterSprite Neutral_Adil>>
     * You nod to Adil before returning to your room.
-    // //<<ChangeScene "Adra's_Bedroom">> //[LOCATION: ADRA’S QUARTERS]
+    <<ChangeScene Adra's_Bedroom>> //[LOCATION: ADRA’S QUARTERS]
     * Once in your room, you skim over Adil’s written account.
     * Nothing new to note that they didn’t cover himself.
 -> ADRA: I’ll read it later. Thank you, Adil.
     ADIL: Of course. Please get some sleep, Adrasteia.
     ADRA: Thank you. You too, Adil.
     <<destroyCharacterSprite Neutral_Adil>>
-    // <<ChangeScene "Adra's_Bedroom">> //[LOCATION: ADRA’S QUARTERS]
+    <<ChangeScene Adra's_Bedroom>> //[LOCATION: ADRA’S QUARTERS]
     * Once in your room, you sit at your desk and begin reading Adil’s written account.
     * My account of Mensis 1, 3072.
     * I oversaw the preparations for Princess Vivian’s birthday celebration for the majority of the day. I left for around 15 minutes later in the day when summoned by Princess Vivian. I was unsure why she summoned me, nor the exact time.

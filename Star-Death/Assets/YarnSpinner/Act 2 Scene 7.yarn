@@ -3,7 +3,7 @@ tags:
 ---
 
 //location Adra's Room to Nuon's Room
-//<<ChangeScene "Adra's_Bedroom">>
+<<ChangeScene Adra's_Bedroom>>
 
 * You jolt awake.
 

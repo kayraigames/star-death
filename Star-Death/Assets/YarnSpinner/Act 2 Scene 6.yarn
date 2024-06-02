@@ -2,7 +2,7 @@
 tags:
 ---
 
-//<<ChangeScene "Adra's_Bedroom">>
+<<ChangeScene Adra's_Bedroom>>
 // [ADRA’S BEDROOM]
 
 ADRA: Ah, finally…
@@ -85,9 +85,7 @@ AALIYAH: Mom’s there to, like, “network” or something.
 
 ADRA: And here I was thinking you had anything helpful to offer.
 
-//need to replace square brackets
-
-AALIYAH: Okay, okay, I’ll do better! Uhhh… She wanted to take advantage of the gala to, like, talk to the other nobles. Things aren’t going great with the districts right now, especially [SOME DISTRICT].
+AALIYAH: Okay, okay, I’ll do better! Uhhh… She wanted to take advantage of the gala to, like, talk to the other nobles. Things aren’t going great with the districts right now, especially with the outer districts..
 
 AALIYAH: People just aren’t getting enough food. I mean, we both know the districts haven’t fully recovered when Grandma was in charge. That selfish old woman…
 

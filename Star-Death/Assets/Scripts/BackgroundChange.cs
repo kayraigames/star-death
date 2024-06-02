@@ -14,8 +14,6 @@ public class BackgroundChange : MonoBehaviour
 
     public Camera mainCamera;
     
-
-
     private void Awake()
     {
         dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
@@ -42,6 +40,7 @@ public class BackgroundChange : MonoBehaviour
             case "Hallway":
                 index = 0;
                 break;
+            case "Adra's_Bedroom":
             case "Hylla's_Bedroom":
                 index = 1;
                 break;
