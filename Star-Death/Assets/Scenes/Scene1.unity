@@ -691,29 +691,26 @@ MonoBehaviour:
   spriteArray:
   - {fileID: 21300000, guid: 857681c3a63317c4784a0778478626e2, type: 3}
   - {fileID: 21300000, guid: 9e4857932a4e44cc99f8be2f6554f7da, type: 3}
-  - {fileID: 21300000, guid: 78537752042a52944aaa653b813bcfe6, type: 3}
+  - {fileID: 21300000, guid: f2f27221910244bd2b1e24744b8a722e, type: 3}
   - {fileID: 21300000, guid: 38629ef58bdbd9445bd79b8233284d87, type: 3}
   - {fileID: 21300000, guid: e65911d0ad7e21344ade020c06c3703f, type: 3}
-  - {fileID: 21300000, guid: 6f147c6a56bf04bdfa0c6a0a0cea984e, type: 3}
---- !u!224 &8889804040870012508
-RectTransform:
+  - {fileID: 21300000, guid: 4ff789921e8e9044da3100f99f8e18ac, type: 3}
+  mainCamera: {fileID: 2131533990}
+--- !u!4 &8889804040870012508
+Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 772333923810228445}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.08, y: -0.18, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.08, y: -0.18}
-  m_SizeDelta: {x: 9.6, y: 5.4}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
