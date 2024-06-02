@@ -13,10 +13,15 @@ tags:
 
 * You reach the entrance to Lady Hylla’s quarters. Her servant, Gray, is standing just outside the door. You haven’t seen them since the celebration. Since the murder.
 
+<<loadCharacterSprite Ecstatic_Gray>>
+<<moveCharacter Ecstatic_Gray 3 -0.5>>
 GRAY: Adra! How nice it is to see you stop by. I feel like it’s been ages since you’ve visited me.
 
 ADRA: I’m here for Lady Hylla.
+<<destroyCharacterSprite Ecstatic_Gray>>
 
+<<loadCharacterSprite Neutral_Gray>>
+<<moveCharacter Neutral_Gray 3 -0.5>>
 GRAY: I’m hurt! You wouldn’t want to come visit me, just like old times?
 
 -> Be vulnerable //Option 1
@@ -67,9 +72,12 @@ GRAY: I returned to my Lady’s side, of course. She still needed help prepping 
 ADRA: Some respect to our royals, please.
 
 GRAY: Pardon, pardon.
+<<destroyCharacterSprite Neutral_Gray>>
 
 * Gray excuses himself, but you can tell it’s for your sake rather than their actual belief.
 
+<<loadCharacterSprite Neutral_Gray>>
+<<moveCharacter Neutral_Gray 3 -0.5>>
 GRAY: So, yes. When Hylla was ready we headed straight to the ball together, where you saw us with those big doe eyes of yours, no? The night concluded as we both remember.
 
 * You roll said “big doe eyes” at Gray’s language, and thank them.
@@ -83,7 +91,7 @@ GRAY: I take it you haven’t looked there yet, after all the stress. My first i
 ADRA: ….
 
 GRAY: And so I am correct. Let’s move then, my dear.
-
+<<destroyCharacterSprite Neutral_Gray>>
 * You obtained GRAY’S ACCOUNT.
 
 <<jump Act_2_Scene_5>>

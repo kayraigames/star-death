@@ -33,16 +33,21 @@ The lights flicker on and suddenly the room is flooded with golden light, reveal
 
 He looks at you worriedly. You can see dark circles under his eyes. Without their Princess to tend to, they’ve been trying to keep themselves busy in any way they could. 
 
+<<loadCharacterSprite Sad_Nervous_Adil>>
+<<moveCharacter Sad_Nervous_Adil 4 -0.5>>
 ADIL: Adrasteia, I sincerely apologize. I didn’t mean to scare you. I knocked, but there wasn’t an answer.
 
 You sit up, trying to flatten stray bits of hair and untangle yourself from the blanket.
+<<destroyCharacterSprite Sad_Nervous_Adil>>
 
+<<loadCharacterSprite Neutral_Adil>>
+<<moveCharacter Neutral_Adil 4 -0.5>>
 ADIL: Are you okay?
 -> I just had a bad dream //option 1
     ADIL: Yes, most of us have not been able to sleep recently.
 -> I saw the Princess //option 2
     His eyes widen.
-    ADIL: Are you sure? Did she say anything? What did she— 
+    ADIL: Are you sure? Did she say anything? What did she—
     ADIL: Sorry, perhaps it was a bad dream…
 -> It was nothing //option 3
     He raises an eyebrow, but doesn’t pursue the matter any further.
@@ -54,6 +59,7 @@ ADIL: You should get ready. The Prince has been calling for you.
 ADRA: Yes. Yes, of course.
 
 As you get out of bed, Adil turns to leave, but lingers in the doorway.
+<<moveCharacter Neutral_Adil 3 -0.5>>
 
 He pauses, then turns back toward you.
 
@@ -63,6 +69,7 @@ He pauses again.
 
 ADIL: Yes, that’s—that’s all I wanted to say. 
 
+<<destroyCharacterSprite Neutral_Adil>>
 Before you can respond, he sets something down and hastily leaves the room, closing the door behind him.
 <<set $door_open = false>>
 

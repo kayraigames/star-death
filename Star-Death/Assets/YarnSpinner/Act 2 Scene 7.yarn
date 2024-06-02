@@ -60,10 +60,15 @@ ADRA: Nuon? Nuon!?
 
 * He’s shaking and looking straight at you, but he doesn’t seem to see you.
 
+<<loadCharacterSprite Neutral_Nuon>>
+<<moveCharacter Neutral_Nuon 7 -0.5>>
 Nuon: Amara…
 
 * Amara?
+<<destroyCharacterSprite Neutral_Nuon>>
 
+<<loadCharacterSprite Sad_Nervous_Nuon>>
+<<moveCharacter Sad_Nervous_Nuon 7 -0.5>>
 Nuon: I’m sorry… Forgive me… Forgive me… I’M SORRY!
 
 * He’s sobbing. You have no idea what to do. You reach out with his other arm to try to comfort him, but before you can—
@@ -72,30 +77,49 @@ ADIL: Prince Nuon!
 
 * Adil bursts through the door.
 
+<<loadCharacterSprite Sad_Nervous_Adil>>
+<<moveCharacter Sad_Nervous_Adil -3 -0.5>>
 ADIL: Adrasteia.
 
+<<moveCharacter Sad_Nervous_Adil 2 -0.5>>
 * He sees you besides Nuon and rushes up. Despite his clear panic, he gently places a hand on your shoulder and gestures for you to move aside.
 
 -> Gently remove Nuon’s hands and move aside.
     * You gently remove Nuon’s hands from your arm and step to the side.
+    <<destroyCharacterSprite Sad_Nervous_Adil>>
 -> Shake Nuon off and move aside.
     * You hastily shake off Nuon and step to the side.
+    <<destroyCharacterSprite Sad_Nervous_Adil>>
 -> Do nothing.
     * You don’t move.
+    <<destroyCharacterSprite Sad_Nervous_Adil>>
+    <<loadCharacterSprite Angry_Adil>>
+    <<moveCharacter Angry_Adil 2 -0.5>>
     * Adil looks at you, his expression serious.
     ADIL: Adrasteia. Please, move.
     * You remain still.
     * Adil reaches out and delicately picks Nuon’s fingers off of your arm. He gives you as much of a glare as his tired eyes can muster before he returns his attention to Nuon.
+    <<destroyCharacterSprite Angry_Adil>>
 
+<<loadCharacterSprite Neutral_Adil>>
+<<moveCharacter Neutral_Adil 2 -0.5>>
 * Nuon returns to lying on his back, putting his hands on his head as he squirms.
 
 * Adil hovers his hand over Nuon and moves it across his body, as if scanning him. Ultimately, his hand lands on Nuon’s head, where he then places both his hands.
+<<destroyCharacterSprite Sad_Nervous_Nuon>>
 
+<<loadCharacterSprite Neutral_Nuon>>
+<<moveCharacter Neutral_Nuon 7 -0.5>>
 * The room immediately fills with a strong but warm smoky scent: Adil’s light magic. Nuon’s sobs begin to subside as his expression calms and his breathing begins to even out.
 
 * Adil turns to you briefly, speaking in a strict but calm tone.
+<<destroyCharacterSprite Neutral_Adil>>
 
+<<loadCharacterSprite Happy_Adil>>
+<<moveCharacter Happy_Adil 2 -0.5>>
 ADIL: Please leave us, Adrasteia.
+<<destroyCharacterSprite Neutral_Nuon>>
+<<destroyCharacterSprite Happy_Adil>>
 
 <<set $location = "Hallway">>
 <<ChangeScene Hallway>>

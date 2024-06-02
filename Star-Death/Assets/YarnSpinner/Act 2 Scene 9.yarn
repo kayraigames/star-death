@@ -24,6 +24,9 @@ GRAY: Come in!
 
 * You enter the unlocked door to see Gray jot something on a notepad as they finish up a phone call.
 //<<ChangeScene "Gray's_Bedroom">>
+
+<<loadCharacterSprite Ecstatic_Gray>>
+<<moveCharacter Ecstatic_Gray 3 -0.5>>
 GRAY: You’ve been a great help, thank you very much Miss.
 
 GRAY: No, the pleasure’s all mine. I hope you have a lovely day.
@@ -33,15 +36,24 @@ GRAY: Thank you, goodbye!
 * They turn to you, smiling wide.
 
 GRAY: Adra, hello! I was just about to go find you, but I guess you found me first!
+<<destroyCharacterSprite Ecstatic_Gray>>
 
+<<loadCharacterSprite Neutral_Gray>>
+<<moveCharacter Neutral_Gray 3 -0.5>>
 * Their smile falls slightly, noticing your concerned expression.
 
 GRAY: Did I do something wrong?
+<<destroyCharacterSprite Neutral_Gray>>
 
+<<loadCharacterSprite Fearful_Gray>>
+<<moveCharacter Fearful_Gray 3 -0.5>>
 * Exaggerated worry accompanies Gray’s joke—an attempt to lighten the mood that doesn’t quite work in this circumstance.
 
 * Gray can tell.
+<<destroyCharacterSprite Fearful_Gray>>
 
+<<loadCharacterSprite Neutral_Gray>>
+<<moveCharacter Neutral_Gray 3 -0.5>>
 GRAY: Oh. I guess I did.
 
 * They sit down on their bed and pat the space next to them.
@@ -88,17 +100,25 @@ GRAY: I was in a rush, so it’s all a bit of a blur.
     * Likely not.
     ADRA: …
     * A long beat of silence. Gray is clearly a little annoyed that you pushed this topic, but you note that for later.
+    <<destroyCharacterSprite Neutral_Gray>>
 -> Ask for more details
     ADRA: What necklace? How long were you two apart?
     GRAY: Hylla’s favorite necklace. It’s like some silver star? She doesn’t wear it out often, but it’s usually in the same spot in her room.
     GRAY: As for how long…
     GRAY: Maybe ten to fifteen minutes? I’m pretty bad at gauging time.
     * Gray is “fashionably” late to most events. It’s a wonder that Lady Hylla allows them to them get away with that.
+    <<destroyCharacterSprite Neutral_Gray>>
 -> Drop it for now
     ADRA: … Okay. I’ll believe you for now.
     GRAY: Thank you, Adra.
+    <<destroyCharacterSprite Neutral_Gray>>
+    <<loadCharacterSprite Ecstatic_Gray>>
+    <<moveCharacter Ecstatic_Gray 3 -0.5>>
     * They smile at you, but something doesn’t feel quite right. You shrug it off for now, noting it for future investigation. You have other concerns to address.
+    <<destroyCharacterSprite Ecstatic_Gray>>
 
+<<loadCharacterSprite Neutral_Gray>>
+<<moveCharacter Neutral_Gray 3 -0.5>>
 ADRA: Another question.
 
 GRAY: Ah. Please, continue.
@@ -129,12 +149,18 @@ GRAY: All I’m saying is, don’t take everyone at face value. Some people are 
     GRAY: What?
     ADRA: You’re in love with her, aren’t you?
     GRAY: …
+    <<destroyCharacterSprite Neutral_Gray>>
+    <<loadCharacterSprite Ecstatic_Gray>>
+    <<moveCharacter Ecstatic_Gray 3 -0.5>>
     * After a long beat of silence, Gray breaks out into laughter.
     * They laugh. And laugh. And laugh. There are tears in their eyes from laughing so hard.
     GRAY: Oh stars, no, no, that’s not what’s happening at all. Whew…
     GRAY: Thanks, Adra, I needed that.
     ADRA: So I take it you’re not in love with her?
     GRAY: Haha, no, not at all. Hylla’s a mentor to me.
+    <<destroyCharacterSprite Ecstatic_Gray>>
+    <<loadCharacterSprite Neutral_Gray>>
+    <<moveCharacter Neutral_Gray 3 -0.5>>
     * They look away from you and lower their gaze.
     GRAY: I admit that I’m a little protective of her.
     * You raise an eyebrow at them.
@@ -199,12 +225,16 @@ ADRA: Gray, I think I’ll go alone. I need to go alone.
 ADRA: I really appreciate you, Gray, for both the information and the investigative support.
 
 ADRA: But this is family, and it might be “quite personal and not related to the investigation.”
+<<destroyCharacterSprite Neutral_Gray>>
 
+<<loadCharacterSprite Ecstatic_Gray>>
+<<moveCharacter Ecstatic_Gray 3 -0.5>>
 * Gray gives a wry smile.
 
 ADRA: I’ll see you around.
 
 GRAY: Alright. Good luck, Adra.
+<<destroyCharacterSprite Ecstatic_Gray>>
 
 * You leave as Gray sits back down.
 

@@ -10,6 +10,8 @@ tags:
 
 ADRA: Adil?
 
+<<loadCharacterSprite Neutral_Adil>>
+<<moveCharacter Neutral_Adil 3 -0.5>>
 ADIL: Adrasteia. Good evening. It is quite late. You should get some rest.
 
 * Despite what he says, the bags under Adil’s eyes make them seem much more tired than yourself.
@@ -91,6 +93,7 @@ ADIL: You may read it later, but I am also happy to verbally recount now, if you
         ADRA: It’s appreciated. Thank you, Adil.
     -> ADRA: Thank you, Adil.
     ADIL: Of course. Please let me know if there is anything else I can do for you.
+    <<destroyCharacterSprite Neutral_Adil>>
     * You nod to Adil before returning to your room.
     // //<<ChangeScene "Adra's_Bedroom">> //[LOCATION: ADRA’S QUARTERS]
     * Once in your room, you skim over Adil’s written account.
@@ -98,6 +101,7 @@ ADIL: You may read it later, but I am also happy to verbally recount now, if you
 -> ADRA: I’ll read it later. Thank you, Adil.
     ADIL: Of course. Please get some sleep, Adrasteia.
     ADRA: Thank you. You too, Adil.
+    <<destroyCharacterSprite Neutral_Adil>>
     // <<ChangeScene "Adra's_Bedroom">> //[LOCATION: ADRA’S QUARTERS]
     * Once in your room, you sit at your desk and begin reading Adil’s written account.
     * My account of Mensis 1, 3072.
