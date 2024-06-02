@@ -3,6 +3,7 @@ tags:
 ---
 <<set $location = "Court Room">>
 <<ChangeScene Court_Room>>
+<<PlayTrack Prologue_Theme>>
 <<wait 2>> 
 The stars are bright outside.
 

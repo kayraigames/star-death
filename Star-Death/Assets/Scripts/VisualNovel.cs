@@ -23,6 +23,12 @@ public class VisualNovel : MonoBehaviour
         // <<moveCharacter NAME_OF_SPRITE X Y >>
         dialogueRunner.AddCommandHandler<string,float,float>("moveCharacter", ChangeCharacterPosition);
 
+        // <<playSound NAME_OF_SFX>>
+        dialogueRunner.AddCommandHandler<string>("PlaySound", PlaySound);
+        // <<playTrack NAME_OF_TRACK>>
+        dialogueRunner.AddCommandHandler<string>("PlayTrack", PlayTrack);
+        // <<StopMusic>>
+        dialogueRunner.AddCommandHandler<string>("StopTrack", StopTrack);
         // <<fadeIn DURATION>>
 
         // <<fadeOut DURATION>>
@@ -81,5 +87,17 @@ public class VisualNovel : MonoBehaviour
 
         // Set the new position of the GameObject
         sprite.transform.position = new Vector2(x, y);
+    }
+    public static void PlaySound(string soundName)
+    {
+        AudioManager.instance.PlaySound(soundName);
+    }
+    public static void PlayTrack(string soundName)
+    {
+        AudioManager.instance.PlayTrack(soundName);
+    }
+    public static void StopTrack(string soundName)
+    {
+        AudioManager.instance.StopTrack(soundName);
     }
 }
