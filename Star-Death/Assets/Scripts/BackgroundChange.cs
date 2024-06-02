@@ -8,7 +8,7 @@ public class BackgroundChange : MonoBehaviour
 {
     private DialogueRunner dialogueRunner;
     private SpriteRenderer backgroundSR;
-    //0 = hallway, 1 = hylla's, 2 = throne room, 3 = stars
+    //0 = hallway, 1 = hylla's, 2 = throne room, 3 = stars, 4 = nuon's, 5 = library
     public Sprite[] spriteArray;
     
     private void Awake()
@@ -43,6 +43,9 @@ public class BackgroundChange : MonoBehaviour
                 break;
             case "Nuon's_Bedroom":
                 index = 4;
+                break;
+            case "Library":
+                index = 5;
                 break;
         }
        

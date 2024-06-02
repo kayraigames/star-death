@@ -1,6 +1,8 @@
 ﻿title: Act1
 tags:
 ---
+
+<<ChangeScene Stars>>
 <<wait 3>>
 ACT 1
 <<wait 3>>
