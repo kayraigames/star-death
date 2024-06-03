@@ -3,7 +3,7 @@ tags:
 ---
 <<set $location = "Hallway">>
 <<ChangeScene Hallway>>
-
+<<PlayTrack Ship_Theme>>
 ADRA: Amara…? Why Amara? Why did he say that?
 
 ADRA: Maybe… maybe I just looked like her. He was mistaken. Yes.

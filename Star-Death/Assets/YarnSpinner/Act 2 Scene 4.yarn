@@ -3,6 +3,8 @@ tags:
 ---
 <<set $location = "Hallway">>
 <<ChangeScene Hallway>>
+<<PlayTrack Ship_Theme>>
+
 * Lady Hylla’s quarters are located not too close but not too far from Nuon’s. You don’t know whether the layout is purposeful or not—did the assignment come out of neutrality or indecision over her being Nuon’s betrothed?
 
 * Your mind wanders too much. You decide to follow your Prince’s advice closely and go on your way to speak to her. 
