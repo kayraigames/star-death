@@ -1,7 +1,11 @@
 ﻿title: Act_2_Scene_9
 tags:
 ---
+<<<<<<< Updated upstream
 <<Play_Track Uneasy_Waltz>>
+=======
+<<ChangeScene Hallway>>
+>>>>>>> Stashed changes
 * “We headed straight to the ball together.”
 
 * “They had stayed behind to tidy my quarters.”
@@ -143,7 +147,7 @@ ADRA: …
 
 GRAY: All I’m saying is, don’t take everyone at face value. Some people are really good at hiding their feelings.
 
--> “Like your feelings for Lady Hylla?” }
+-> “Like your feelings for Lady Hylla?” 
     ADRA: Like your feelings for Lady Hylla?
     * Gray instinctively whips their head to look at you, shocked.
     GRAY: What?
