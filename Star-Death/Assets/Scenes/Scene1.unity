@@ -495,9 +495,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 263536822657407058, guid: 18f2bf964bc1f49b5975731c560742d2, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0.139
+      objectReference: {fileID: 0}
     - target: {fileID: 5329319202680352671, guid: 18f2bf964bc1f49b5975731c560742d2, type: 3}
       propertyPath: Loop
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5329319202680352671, guid: 18f2bf964bc1f49b5975731c560742d2, type: 3}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5329319202680352671, guid: 18f2bf964bc1f49b5975731c560742d2, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0.698
       objectReference: {fileID: 0}
     - target: {fileID: 7518525007365397837, guid: 18f2bf964bc1f49b5975731c560742d2, type: 3}
       propertyPath: m_Name

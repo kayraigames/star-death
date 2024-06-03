@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Yarn.Unity;
 
 public class VisualNovel : MonoBehaviour
@@ -32,6 +33,7 @@ public class VisualNovel : MonoBehaviour
         // <<fadeIn DURATION>>
 
         // <<fadeOut DURATION>>
+        dialogueRunner.AddCommandHandler("MainMenuLoad", MainMenuLoad);
     }
 
     public void LoadCharacterSprite(string spriteName)
@@ -99,5 +101,9 @@ public class VisualNovel : MonoBehaviour
     public static void StopTrack(string soundName)
     {
         AudioManager.instance.StopTrack(soundName);
+    }
+    public void MainMenuLoad()
+    {
+        SceneManager.LoadScene("Mennu2");
     }
 }
