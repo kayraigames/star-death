@@ -7,46 +7,64 @@ title: Prologue_Scene_2
 <<loadCharacterSprite Adil_placeholder>>
 <<moveCharacter Adil_placeholder 4 -0.5>>
 <<PlaySound door_open>>
-<<wait 1>> 
+<<wait 5>>
+<<PlaySound P1_S2_Empress_1>>
 EMPRESS: Adra?
 <<PlaySound Footsteps_heels>>
 <<set $door_open = true>> The Empress herself enters the room. 
 
 She holds a folder in her hands, her gown elegantly flowing behind her as she walks in and sits down. She exudes an aura of might and power impossible to mistake for anyone else’s. Her eyes meet yours.
 
+<<PlaySound P1_S2_Empress_2>>
 EMPRESS: I wish we could have met under better circumstances.
 
+<<PlaySound P1_S2_Empress_3>>
 EMPRESS: I do not know how much you are informed of, but the situation is dire.
 
+<<PlaySound P1_S2_Adra_1>>
 ADRA: …Yes. Indeed.
 
+<<PlaySound P1_S2_Empress_4>>
 EMPRESS: I will cut to the chase. Currently, Crown Prince Nuon, the man to whom you serve, is the primary suspect for the death of Princess Vivian. He is required to stand trial in five days, and if the evidence indicates his involvement, it may just be the end for the heir apparent.
 
+<<PlaySound P1_S2_Empress_11>>
 EMPRESS: And the end of the heir means the end for all who depend on our royal family. 
 
+<<PlaySound P1_S2_Adra_2>>
 For all who depend on them…
 
+<<PlaySound P1_S2_Adra_3>>
 The end…
 
+<<PlaySound P1_S2_Empress_6>>
 EMPRESS: For now, the current situation suggests the Prince committed this heinous act as a way to ascend the throne, as horrific and unfathomable as that may be.
 
+<<PlaySound P1_S2_Empress_12>>
 EMPRESS: I realize Princess Vivian’s death alone is already a heavy burden, but as your position is head servant to the accused, it ultimately falls to you to substantiate his innocence, if there exists a separate story.
 
+<<PlaySound P1_S2_Empress_7>>
 EMPRESS: Keep in mind this does not clear you of suspicion. It just so happens you are accounted for throughout most, if not all, of the instances surrounding the lady’s death.
 
+<<PlaySound P1_S2_Adra_4>>
 Nuon… you couldn’t have.
 
+<<PlaySound P1_S2_Adra_5>>
 Your sister…?
 
+<<PlaySound P1_S2_Adra_6>>
 ADRA: I understand.
 
+<<PlaySound P1_S2_Adra_7>>
 Surely, Nuon, you can’t have.
 
+<<PlaySound P1_S2_Empress_8>>
 EMPRESS: I’m glad. I wholly entrust to you this task, given your familiarity with the family and the Prince in particular. Investigate as much as you can, and uncover the truth of what transpired on this/my ship.
 
+<<PlaySound P1_S2_Empress_9>>
 EMPRESS: Remember, five days.
 <<declare $day = 5>>
 
+<<PlaySound P1_S2_Empress_10>>
 EMPRESS: If there are no further questions, you are dismissed.
 <<destroyCharacterSprite Adil_placeholder>>
 

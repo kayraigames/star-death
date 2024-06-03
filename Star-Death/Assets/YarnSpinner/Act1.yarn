@@ -2,8 +2,10 @@
 tags:
 ---
 <<ChangeScene Stars>>
-<<wait 3>>
+<<wait 1>>
+<<<PlayTrack ActPageSound>>
 ACT 1
+
 <<wait 3>>
 <<jump Act1_Scene1>>
 ===
