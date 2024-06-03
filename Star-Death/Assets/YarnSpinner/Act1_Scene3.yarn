@@ -92,7 +92,7 @@ ADRA: Gray—
 You accidentally step on Gray’s toes. They wince, clutching your shoulder. You lean past them, trying your best to scan the crowd.
 
 ADRA: I’m sorry—
-
+<<PlaySound HighPitchScream>>
 EEEEEEEEEEEEEEK!
 
 A scream cuts through the crowd, followed by another, and another, until the lofty music is overwhelmed entirely and replaced by a cacophony of shrieks.
