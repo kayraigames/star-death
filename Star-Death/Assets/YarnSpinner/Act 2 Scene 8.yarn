@@ -98,5 +98,6 @@ HYLLA: Wish Nuon a quick recovery from me.
 <<destroyCharacterSprite Neutral_Hylla>>
 *Lady Hylla then swiftly turns and leaves the way she came.
 
+DEMO END
 <<jump Act_2_Scene_9>>
 ===
