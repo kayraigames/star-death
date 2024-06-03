@@ -3,7 +3,7 @@ tags:
 ---
 <<set $location = "Hallway">>
 <<ChangeScene Hallway>> //[LOCATION: HALLWAY]
-
+<<PlayTrack Ship_Theme>>
 * You will visit your mother—and investigate Gray’s past—tomorrow. For now, it is time to rest.
 
 * But you have one more stop to make before you let yourself sleep.

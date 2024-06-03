@@ -5,7 +5,7 @@ tags:
 // Location: hallway -> Nuon's Headquarters
 
 <<ChangeScene Hallway>>
-
+<<PlayTrack Ship_Theme>>
 ADRA: Hi, Nuon, how’re you doing? No…
 
 ADRA: Hello, Nuon, I know it’s been hard… Nope.
@@ -38,6 +38,7 @@ He definitely sounds angrier than you did back then, but that’s to be expected
 <<set $door_open = true>>
 
 <<ChangeScene Nuon's_Bedroom>> //Nuon's Headquarters but bedroom for now
+<<PlayTrack Nuons_Theme>>
 
 -> How are you doing? //option 1
     ADRA: Hey, Nuon, how are—

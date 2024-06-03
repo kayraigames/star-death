@@ -6,8 +6,10 @@ title: Prologue_Scene_2
 <<declare $door_open = false>>
 <<loadCharacterSprite Adil_placeholder>>
 <<moveCharacter Adil_placeholder 4 -0.5>>
+<<PlaySound door_open>>
+<<wait 1>> 
 EMPRESS: Adra?
-
+<<PlaySound Footsteps_heels>>
 <<set $door_open = true>> The Empress herself enters the room. 
 
 She holds a folder in her hands, her gown elegantly flowing behind her as she walks in and sits down. She exudes an aura of might and power impossible to mistake for anyone else’s. Her eyes meet yours.

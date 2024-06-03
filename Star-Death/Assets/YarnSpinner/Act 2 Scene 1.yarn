@@ -8,7 +8,7 @@ tags:
 //location for scene purposes (stars)
 <<set $location = "Stars">>
 <<ChangeScene Stars>>
-
+<<PlayTrack Vivians_Theme>>
 …
 
 The stars are bright in your dream. You hover in ceaseless existence, ever-wondering if there is an end to this all.

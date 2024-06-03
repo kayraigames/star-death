@@ -3,6 +3,7 @@ tags:
 ---
 <<wait 2>>
 <<ChangeScene Adra's_Bedroom>>
+<<PlayTrack Adras_Theme>>
 // [ADRA’S BEDROOM]
 
 It is dark.
